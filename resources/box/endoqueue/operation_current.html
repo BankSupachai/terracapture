@@ -1,0 +1,20 @@
+@foreach($queue as $data)
+<tr>
+    <th class="q_number">{{$q_number}}</th>
+    <td class="q_hn">{{$q_hn}}</td>
+    <td class="q_status">{{$q_statustext}}</td>
+    <td><button class="btn btn-success gohome" style="{{$style}}" call_id="{{$q_id}}">กลับบ้าน</button></td>
+</tr>
+@endforeach
+
+<script>
+    $(".gohome").click(function(){
+        var q_id = $(this).attr('call_id')
+        $.post("queue",{
+            event   : "queue_next",
+            q_id    : q_id,
+        },function(data, status){
+            socket.emit('queue','refreshdata');
+        });
+    });
+</script>

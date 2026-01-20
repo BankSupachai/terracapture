@@ -1,0 +1,22 @@
+@foreach($queue as $data)
+<tr>
+    <th class="q_number">{{$q_number}}</th>
+    <td class="q_hn">{{$q_hn}}</td>
+    <td class="q_start" hour="{{$hour}}" minute="{{$minute}}">{{$q_start}}</td>
+    <td style=" width:3em"><a class="btn btn-info btn-sm" onclick="reprint_q({{$q_id}})"><i class="fas fa-print"></i></a></td>
+    <td><div class="{{$class}} rounded-lg text-center w-10 p-1 count{{$q_status}}_{{$q_type}} callqueue"
+        q_number="{{$q_number}}"
+        data-toggle="modal"
+        data-target="#modal_call"
+        onclick="callmodal('{{$q_status}}',{{$q_id}},'{{$q_type}}','{{$q_number}}','{{$q_hn}}')"
+        >
+        เรียกคิว</div>
+    </td>
+    <td class="text-center">
+        <a
+        data-toggle="modal"
+        data-target="#modal_del"
+        onclick="delmodal('{{$q_status}}',{{$q_id}},'{{$q_type}}','{{$q_number}}','{{$q_hn}}')"><i class="fas fa-times text-danger icon-lg"></i></a>
+    </td>
+</tr>
+@endforeach

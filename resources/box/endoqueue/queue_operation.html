@@ -1,0 +1,13 @@
+@foreach($queue as $data)
+<tr>
+    <th class="q_number">{{$q_number}}</th>
+    <td class="q_hn">{{$q_hn}}</td>
+    <td class="q_status">{{$q_patientname}}</td>
+    <td class="q_start"  hour="{{$hour}}" minute="{{$minute}}">{{$q_start}}</td>
+    <td class="q_status">{{$q_statustext}}</td>
+    <td>
+        <button class="btn btn-primary">Operation</button>
+    </td>
+    <td></td>
+</tr>
+@endforeach

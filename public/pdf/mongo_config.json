@@ -1,0 +1,4 @@
+[
+    {"host":"localhost","port": 27017, "collection": "endoindex", "username":"admin", "password":"123456", "auth": "false"},
+    {"host":"192.168.68.4","port": 27017, "collection": "endoindex", "username":"admin", "password":"123456"}
+]

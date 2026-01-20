@@ -1,0 +1,6 @@
+.tb_code{width: 4em;}
+.tb_number{width: 10em;text-align: right;}
+.tb_number input{text-align: right;padding: 5px !important;}
+.tb_select{
+    width: 3em;
+}

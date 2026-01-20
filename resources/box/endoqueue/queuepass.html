@@ -1,0 +1,14 @@
+@foreach($queuepass as $data)
+    <tr v-for="q in queue_ap_start_n">
+        <input type="hidden" name="" :value="q.q_id" id="">
+        <th class="q_number">{{$q_number}}</th>
+        <td class="q_hn">{{$q_hn}}</td>
+        <td class="q_start">{{$q_start}}</td>
+        <td>{{$q_text}}</td>
+        <td>
+            <button class="btn btn-success font-weight-bold mr-2 skip_event">
+                <i class="fa fa-comment-alt"></i> เรียกคิว
+            </button>
+        </td>
+    </tr>
+@endforeach

@@ -1,0 +1,28 @@
+*{
+    color: white;
+}
+body{
+    background-color: black;
+}
+.operation
+{
+    height: 50px;
+    overflow: scroll;
+}
+.registered
+{
+    height: 390px;
+    overflow: scroll;
+}
+.vip
+{
+    overflow: scroll;
+}
+.finished
+{
+    height: 100px;
+    overflow: scroll;
+}
+::-webkit-scrollbar {
+    display: none;
+}

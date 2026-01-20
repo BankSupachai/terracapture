@@ -1,0 +1,19 @@
+.card-box{
+    width: 100%;
+    height: 100%;
+    background: #171817;
+}
+.form-library{
+    color: #fff !important;
+    background: #101211 !important;
+    border-color: #232323 !important;
+}
+
+.bootstrap-select > .dropdown-toggle.btn-light, .bootstrap-select > .dropdown-toggle.btn-secondary {
+    color: #fff !important;
+    background: #101211 !important;
+    border-color: #232323 !important;
+}
+.border-red{
+    border: 2px solid red !important;
+}

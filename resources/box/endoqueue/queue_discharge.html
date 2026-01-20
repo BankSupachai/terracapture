@@ -1,0 +1,37 @@
+@foreach($queue as $data)
+<tr>
+    <th class="q_number">{{$q_number}}</th>
+    <td class="q_hn">{{$q_hn}}</td>
+    <td class="q_status">{{$q_patientname}}</td>
+    <td class="q_start"  hour="{{$hour}}" minute="{{$minute}}">{{$q_start}}</td>
+    <td class="q_status">{{$q_statustext}}</td>
+    <td class="q_status"><button class="btn btn-primary queuedischarge" hn="{{$q_hn}}"  queuenumber="{{$q_number}}">รับคนไข้ {{$q_number}}</button></td>
+    <td><button class="btn btn-danger success" style="{{$style}}" call_id="{{$q_id}}">เสร็จสิ้น</button></td>
+</tr>
+@endforeach
+
+<script>
+    $(".success").click(function(){
+        var q_id = $(this).attr('call_id')
+        $.post("{{$url}}/queue",{
+            event   : "queuesuccess",
+            q_id    : q_id,
+        },function(data, status){
+            socket.emit('queue','refreshdata');
+        });
+    });
+
+
+    $(".queuedischarge").click(function(){
+        var queueNUMBER = $(this).attr('queuenumber');
+        // QueueCALL(queueNUMBER);
+        var hn = $(this).attr('hn')
+        $.post("{{$url}}/sms",{
+            event   : "queuepatient",
+            hn    : hn,
+        },function(data, status){
+            socket.emit('queue','{"calling":"'+queueNUMBER+'"}');
+            socket.emit('queue','refreshdata');
+        });
+    });
+</script>

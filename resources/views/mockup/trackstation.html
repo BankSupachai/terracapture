@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="public/images/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+    <title>TrackStation</title>
+
+    <style>
+        body {
+            background: #245788;
+        }
+        h3{
+            color: #fff;
+        }
+        span{
+            color: #fff;
+        }
+        .text-detaill{
+            color: #ffffffa9;
+        }
+        .fs-18{
+            font-size: 18px;
+        }
+        .btn-cancel{
+            background: #193d61;
+            color: #fff;
+        }
+        .btn-cancel:hover{
+            background: #102f4e;
+            color: #fff;
+        }
+        footer{
+            position: fixed;
+            bottom: 0;
+            margin-bottom: 1em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row p-4 m-0">
+        <div class="col-6">
+            <h3 >
+                <svg width="24" height="26" viewBox="0 0 24 26"fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M18.2499 13C18.5814 13 18.8994 13.1317 19.1338 13.3661C19.3682 13.6005 19.4999 13.9185 19.4999 14.25V25.5H16.9999V15.5H6.99991V25.5H4.49991V14.25C4.49991 13.9185 4.63161 13.6005 4.86603 13.3661C5.10045 13.1317 5.41839 13 5.74991 13H18.2499ZM11.9999 18V20.5H9.49991V18H11.9999ZM11.9999 5.5C13.393 5.49958 14.7586 5.88715 15.9438 6.61927C17.1289 7.35138 18.0868 8.3991 18.7099 9.645L16.4724 10.7638C16.0572 9.93303 15.4189 9.23436 14.6289 8.74605C13.839 8.25774 12.9286 7.99909 11.9999 7.99909C11.0712 7.99909 10.1609 8.25774 9.37091 8.74605C8.58095 9.23436 7.9426 9.93303 7.52741 10.7638L5.28991 9.645C5.91307 8.3991 6.87091 7.35138 8.05607 6.61927C9.24122 5.88715 10.6069 5.49958 11.9999 5.5ZM11.9999 0.500001C14.3218 0.499267 16.598 1.14524 18.5733 2.36551C20.5487 3.58578 22.1451 5.33211 23.1837 7.40875L20.9462 8.5275C20.1154 6.86621 18.8384 5.46912 17.2583 4.49282C15.6782 3.51652 13.8573 2.9996 11.9999 3C10.1425 2.9996 8.32167 3.51652 6.74153 4.49282C5.16139 5.46912 3.88439 6.86621 3.05366 8.5275L0.816162 7.40875C1.85473 5.33211 3.45117 3.58578 5.42652 2.36551C7.40187 1.14524 9.67805 0.499267 11.9999 0.500001Z"
+                        fill="white" />
+                </svg>
+                Preparation
+            </h3>
+        </div>
+        <div class="col-6 text-end">
+
+            <h3 id="date"></h3>
+            <h3 id="time"></h3>
+        </div>
+        <div class="row mt-5 ">
+            <div class="col-5">
+                <h3>Last tracking in this station</h3>
+                <div class="mt-4" style="border-bottom: 1px solid #fff;"></div>
+                <div class="info p-3">
+                    <div class="row">
+                        <div class="col-auto">
+                            <img src="{{url("public/images/avatar.png")}}" class="rounded-circle" width="32" height="32" alt="">
+                        </div>
+                        <div class="col">
+                            <span> สดายุ ทองลอย </span> <br>
+                            <span class="text-detaill">Nurse Assistant</span>
+                        </div>
+                        <div class="col-3 text-end align-self-center text-nowrap">
+                            <span class="text-detaill">06 min ago</span>
+
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-auto">
+                            <img src="{{url("public/images/avatar.png")}}" class="rounded-circle" width="32" height="32" alt="">
+                        </div>
+                        <div class="col">
+                            <span>สดายุ ทองลอย </span> <br>
+                            <span class="text-detaill">Nurse Assistant</span>
+                        </div>
+                        <div class="col-3 text-end align-self-center text-nowrap">
+                            <span class="text-detaill">06 min ago</span>
+
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-auto">
+                            <img src="{{url("public/images/avatar.png")}}" class="rounded-circle" width="32" height="32" alt="">
+                        </div>
+                        <div class="col">
+                            <span> สดายุ ทองลอย </span> <br>
+                            <span class="text-detaill">Nurse Assistant</span>
+                        </div>
+                        <div class="col-3 text-end align-self-center text-nowrap">
+                            <span class="text-detaill">06 min ago</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+
+            </div>
+            <div class="col-5">
+                <h3>In-charge Tracking</h3>
+                <div class="mt-4" style="border-bottom: 1px solid #fff;"></div>
+                <div class="info p-4">
+                    <div class="row">
+                        <div class="col">
+                            <span class="fs-18">คุณสดายุ ทองลอย </span> <br>
+                            <span class="text-detaill fs-18">Nurse Assistant</span>
+                        </div>
+                        <div class="col-auto">
+                            <img src="{{url("public/images/canvasmoc.png")}}" class="rounded-circle" width="64" height="64" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-5">
+                    <h3>Scope Tracking</h3>
+                    <div class="mt-4" style="border-bottom: 1px solid #fff;"></div>
+                    <table class="table p-3 mt-3  table-responsive table-borderless" id="table_scopelist" style="background: #6482a2;">
+                        <tr>
+                          <td scope="row" class="text-white text-center h5" style="width: 50%">
+                              <input name="scope[]" type="hidden" value="GIF-HQ190">
+                              <label for="" class="text-white fw-normal">GIF-HQ190</label>
+                          </td>
+                          <td class="text-white text-center h5">
+                              436434533
+                          </td>
+                        </tr>
+                        <tr>
+                          <td scope="row" class="text-white text-center h5" style="width: 50%">
+                              <input name="scope[]" type="hidden" value="GIF-HQ190">
+                              <label for="" class="text-white fw-normal">GIF-HQ190</label>
+                          </td>
+                          <td class="text-white text-center h5">
+                              436434533
+                          </td>
+                        </tr>
+                        <tr>
+                          <td scope="row" class="text-white text-center h5" style="width: 50%">
+                              <input name="scope[]" type="hidden" value="GIF-HQ190">
+                              <label for="" class="text-white fw-normal">GIF-HQ190</label>
+                          </td>
+                          <td class="text-white text-center h5">
+                              436434533
+                          </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="row">
+                    <div class="col-6 text-center">
+                        <button type="button" class="btn btn-cancel waves-effect waves-light w-75">
+                            <svg width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4 4.375V6.875L0.25 3.75L4 0.625V3.125H7.125C8.45108 3.125 9.72285 3.65178 10.6605 4.58947C11.5982 5.52715 12.125 6.79892 12.125 8.125C12.125 9.45108 11.5982 10.7229 10.6605 11.6605C9.72285 12.5982 8.45108 13.125 7.125 13.125H1.5V11.875H7.125C8.11956 11.875 9.07339 11.4799 9.77665 10.7767C10.4799 10.0734 10.875 9.11956 10.875 8.125C10.875 7.13044 10.4799 6.17661 9.77665 5.47335C9.07339 4.77009 8.11956 4.375 7.125 4.375H4Z" fill="white"/>
+                                </svg>
+
+                             Cancel
+                        </button>
+                    </div>
+                    <div class="col-6">
+                        <button type="button" class="btn btn-success  waves-effect waves-light w-75">
+                            <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.46662 8.99909L0.699951 5.23242L1.64995 4.29909L4.48328 7.13242L5.41662 8.06576L4.46662 8.99909ZM8.23328 8.99909L4.46662 5.23242L5.39995 4.28242L8.23328 7.11576L14.3666 0.982422L15.3 1.93242L8.23328 8.99909ZM8.23328 5.23242L7.28328 4.29909L10.5833 0.999089L11.5333 1.93242L8.23328 5.23242Z" fill="white"/>
+                                </svg>
+
+                            Confirm
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <footer class="col-auto text-white">
+            © 2023 EndoINDEX 6.0 - Design & Develop by Medica Healthcare Co.,Ltd.
+        </footer>
+    </div>
+    <script>
+        function WhatTimeIsIt(){
+  //FOR TIME
+     let clock = new Date();
+     let hour= clock.getHours();
+     if(hour <10){ hour = "0"+hour}
+     let mn = clock.getMinutes();
+    if(mn <10){ mn = "0"+mn}
+    let sec = clock.getSeconds();
+    if(sec <10){ sec = "0"+sec}
+    let timeIs = hour +  ":" + mn + ":" + sec;
+    document.getElementById("time").innerText = timeIs;
+  //For date
+  let day = clock.getDate();
+  if(day < 10){ day = "0"+day;}
+  let month = (clock.getMonth()) + 1;
+  if (month < 10) { month = "0"+month;}
+  let year = clock.getFullYear();
+  let date = day + "/" + month+ "/" + year;
+  document.getElementById("date").innerText = date;
+}
+setInterval(WhatTimeIsIt,1000);
+    </script>
+</body>
+
+</html>

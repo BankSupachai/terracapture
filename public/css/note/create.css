@@ -1,0 +1,174 @@
+.text-x {
+    width: 70% !important;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding: 0;
+}
+
+.text-x6 {
+    width: 35% !important;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding: 0;
+}
+
+.text-x6a {
+    width: 100% !important;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding: 0;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.line-left {
+    border-left: groove;
+}
+
+.content-page .content {
+    padding: 0 10px;
+    margin-top: 10px;
+}
+
+label {
+    margin: 0;
+}
+
+.top-bar {
+    margin: 0;
+    width: 100%;
+    padding: 15px 15px;
+    background-color: #fff;
+    border: 1px solid black;
+}
+
+.table tr th {
+    text-align: center;
+}
+
+.btn-blue {
+    border: 1px solid rgb(26, 25, 25) !important;
+    background: #0071B3 !important;
+    border-radius: 0 !important;
+    opacity: 0.9;
+    height: 100%;
+}
+
+.text_new {
+    border-radius: 0 !important;
+    border: 1px solid black !important;
+}
+
+.text-se {
+    position: absolute;
+    right: 5px;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    border-bottom: none;
+}
+
+.nav-item {
+    padding: 2px 10px;
+    align-self: center;
+}
+
+.alc {
+    align-items: center;
+}
+
+.box-status {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.btn-mos {
+    border: 1px solid rgb(26, 25, 25) !important;
+    padding: 15px 7px !important;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.box-x {
+    border: 1px solid black;
+    margin: auto;
+    background: #fff;
+    margin-top: 15px;
+    padding: 15px 25px;
+    box-shadow: 0px 0px 5px grey;
+}
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    text-shadow: 0 0 3px black;
+    /* width: 15%; */
+}
+
+.tablink:hover {
+    background-color: #777;
+
+}
+
+.tabcontent {
+    /* color: white; */
+    display: none;
+    padding: 1em 1em;
+    height: 100%;
+}
+
+#HistoryTaking {
+    background-color: rgb(248, 193, 193);
+    border-radius: 0 5px;
+}
+
+#Appointment {
+    background-color: rgb(211, 184, 145);
+    border-radius: 0 5px;
+}
+
+#TakingHistory {
+    background-color: rgb(212, 208, 151);
+    border-radius: 0 5px;
+}
+
+#PerformTheProcedure {
+    background-color: rgb(203 218 154);
+    border-radius: 0 5px;
+}
+
+#AfterTheProcedure {
+    background-color: rgb(155, 194, 155);
+    border-radius: 0 5px;
+}
+
+#TrackSymptoms {
+    background-color: rgb(176, 216, 176);
+    border-radius: 0 5px;
+}
+
+.tabcontent .card {
+    margin: 0.5em 0.2em;
+    background: rgba(255, 255, 255, 0.603)
+}
+
+img {
+    width: 65%;
+}
+
+.mrs {
+    padding: 0.5em 0em;
+}

@@ -1,0 +1,36 @@
+.ct{
+    align-items: center;
+}
+.fc-unthemed .fc-event.fc-start .fc-content:before, .fc-unthemed .fc-event-dot.fc-start .fc-content:before {
+    position: absolute;
+    opacity: 0;
+}
+.fc-unthemed .fc-event .fc-content, .fc-unthemed .fc-event-dot .fc-content {
+    padding: 0.55rem 0.55rem 0.55rem 5px;
+}
+.fc-header-toolbar{
+    /* display: none; */
+}
+.fc-right{
+    display: none;
+}
+.text-id{
+    background-color: #fff !important;
+    border: none !important;
+}
+.btn-close{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 2em;
+    height: 2em;
+    border-radius: 0;
+    z-index:999999;
+    color: red;
+}
+.btn-border{
+    border-radius: 0 !important;
+}
+.cn{
+    align-items: center !important;
+}

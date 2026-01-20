@@ -1,0 +1,10 @@
+.img-fluid:hover{
+    box-shadow: 0px 0px 10px #b4c1bf;
+    padding: 2px;
+}
+.incon-orange{
+    color: #ff4800;
+}
+.set-cen{
+    align-items: center;
+}

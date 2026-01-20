@@ -1,0 +1,252 @@
+:root {
+    --vz-vertical-menu-bg-dark: #164e63;
+}
+body{
+    background-color: #202020;
+}
+[data-layout-mode=dark] {
+    --vz-vertical-menu-bg-dark: #151529;
+}
+
+.row{
+    margin: 0;
+}
+.cn{
+    align-items: center;
+}
+.top-nav > .col-8 > .row > .col{
+    background-color: #202020;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    font-size: 1.6em;
+}
+.top-nav > .col-8 > .row > .col:hover{
+    transition: 0.3s;
+    background-color: #40547D;
+}
+.img-logo{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    height: 5vh;
+}
+.dropdown-menu{
+    width: 25%;
+    border-radius: 0;
+    background-color: #202020;
+}
+.bg-menu{
+    background-color: #202020;
+    border-radius: 4px;
+}
+.top-nav > .col-4{
+    background: black;
+}
+.top-nav{
+    border-bottom: 1em solid black;
+}
+.dropdown-menu > a{
+    background-color: #202020;
+    padding-top: 2vh;
+    font-size: 1.6em;
+    padding-bottom: 2vh;
+    color: #fff !important;
+}
+.dropdown-menu > a:hover{
+    transition: 0.3s;
+    background-color: #40547D;
+}
+.dropdown-toggle::after{
+    display: none;
+}
+.active-url{
+    background-color: #40547D !important;
+}
+.f-14{
+    font-size: 1.4em;
+}
+.f-15{
+    font-size: 1.5em;
+}
+.input-dark{
+    border-color: #4D4D4D;
+    color: #4D4D4D;
+    background: none;
+}
+.border-bottom{
+    border-color: #4D4D4D !important;
+}
+.form-check-all > tr > td{
+    font-size: 1.4em;
+    color: white;
+}
+.mh-menu{
+    height: 70vh;
+    overflow-y: auto;
+}
+.h-full{
+    height: 90vh;
+}
+.menu-shutdown{
+    height: 50vh;
+    border-radius: 15px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
+.menu-shutdown:hover{
+    transition: 0.3s;
+    background-color: #40547D;
+}
+.menu-shutdown:hover i{
+    color: white;
+}
+.menu-shutdown i{
+    margin-top: 3vh;
+    font-size: 45vh;
+}
+#vdo_setting td{
+    color: white;
+    font-size: 1.4em;
+}
+.font-weight-bold{
+    font-weight: bold;
+}
+.box-version{
+    width: 100%;
+    border: 1px solid #707070;
+    padding: 10px 15px;
+    height: 30vh;
+    overflow-y: auto;
+}
+.w-70{
+    width: 70%;
+}
+.table-connection tr td{
+    padding: 5px;
+    color: white;
+}
+.table-connection tr td:first-child{
+    width: 30px;
+}
+.table-connection tr td:nth-child(2){
+    width: 15%;
+}
+::-webkit-scrollbar {
+    width: 0px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+.page-rocord{
+    height: 90vh;
+}
+.menu-right{
+    align-self: center;
+    padding-right: 0;
+    right: 0;
+}
+.menu-right .box{
+    margin-top: 3px;
+    width: 100%;
+    height: 10em;
+    border-radius: 5px 0px 0px 5px;
+    background: #E8E8E8;
+    text-align: center;
+}
+.box > i{
+    font-size: 8em;
+}
+.box > b{
+    font-size: 2em;
+}
+.capture{
+    padding-top: 1.5em;
+}
+.capture:hover,.record:hover{
+    background: whitesmoke;
+}
+.record.active{
+    padding-top: 0;
+    background: red;
+    animation-name: record;
+    animation-duration: 0.3s;
+}
+.record.active i{
+    color: white;
+}
+.time-run{
+    display: none;
+}
+.record.active .time-run{
+    display: block;
+}
+.record.active:hover{
+    background: rgb(165, 12, 12);
+}
+.record{
+    padding-top: 1.2em;
+}
+.box.finish{
+    color: #fff;
+    padding-top: 3.3em;
+    background: #40547D;
+}
+.box.finish:hover{
+    background: #2c3c5c;
+}
+.menu-left-record{
+    background: #202020;
+}
+.table-f tr td{font-size: 1.4em;padding: 5px;}
+.box-image{
+    width: 100%;
+    height: 62vh;
+    overflow-y: auto;
+}
+.box-image img{
+    width: 100%;
+    margin-bottom: 3px;
+}
+.box-img-list{
+    position: relative;
+    width: 100%;
+}
+.box-img-list .number-img{
+    position: absolute;
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@keyframes record {
+    from {background-color: rgb(224, 19, 19);}
+    to {background-color: rgb(245, 128, 128);}
+}
+@media (max-width: 1300px) {
+    .box > i {
+        font-size: 3.5em;
+    }
+    .menu-right .box {
+        height: 6em;
+    }
+    .box > b {
+        font-size: 1em;
+    }
+    .box.finish {
+        padding-top: 2.3em;
+    }
+}

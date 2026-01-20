@@ -1,0 +1,26 @@
+.w-40{
+    width: 40%;
+}
+.w-100{
+    width: 100%;
+}
+.ht-70{
+    height: 75em;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(71, 70, 70);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: gray;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(71, 70, 70);
+}

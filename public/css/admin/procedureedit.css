@@ -1,0 +1,9 @@
+.btn.btn-default:not(:disabled):not(.disabled):active:not(.btn-text), .btn.btn-default:not(:disabled):not(.disabled).active, .show > .btn.btn-default.dropdown-toggle, .show .btn.btn-default.btn-dropdown {
+    color: #fff !important;
+}
+.set_menu{
+    border:none;
+}
+.set_menu .card-heade{
+    border-radius: 15px 15px 0px 0px;
+}

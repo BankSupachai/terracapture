@@ -1,0 +1,9 @@
+.bg-gray-input{
+    border: 0px !important;
+    background: #f3f6f9 !important;
+
+}
+
+.bg-gray-input[readonly] {
+    background-color: #d2ebf6;
+}

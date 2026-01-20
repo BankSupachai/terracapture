@@ -1,0 +1,101 @@
+.fetal-biometry td{padding: 5px;width: 15%;}
+.dating-table td{padding-left: 10px;min-width: 40px;}
+.dating-table tr:first-child td{padding: 8px 5px !important;}
+.row{align-items: center;}
+td{white-space: nowrap;}
+.card-graph ul {
+    list-style-type: none;
+}
+
+.card-graph li {
+    display: inline-block;
+}
+
+.card-graph input[type="checkbox"][id^="myCheckbox"] ,.card-graph input[type="checkbox"][id^="myimge"] {
+    display: none;
+}
+
+.card-graph label {
+    border: 1px solid #fff;
+    padding: 10px;
+    display: block;
+    position: relative;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.card-graph label:before {
+    background-color: white;
+    color: white;
+    content: " ";
+    display: block;
+    border-radius: 50%;
+    border: 1px solid #1D3A49;
+    position: absolute;
+    top: -2px;
+    left: -5px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 28px;
+    transition-duration: 0.4s;
+    transform: scale(0);
+}
+
+.card-graph label img {
+
+    transition-duration: 0.2s;
+    transform-origin: 50% 50%;
+}
+
+.card-graph :checked + label {
+    border-radius: 7px;
+    border-color: #3A7392;
+}
+
+.card-graph :checked + label:before {
+    content: "✓";
+    background-color: #3A7392;
+    transform: scale(1);
+}
+
+.card-graph :checked + label img {
+    transform: scale(0.9);
+    z-index: -1;
+}
+ .label-underline{
+    text-decoration: underline;
+    color: black;
+}
+.set-menu-change{
+    display: none;
+}
+.set-menu-change.active{
+    display: block;
+}
+#menu_procedure{
+    height: 85vh;
+    overflow-y: auto;
+    padding-bottom: 5vh;
+}
+.card-graph{
+    max-height: 30vh;
+    overflow-y: auto;
+    padding-bottom: 2em;
+}
+#report_status,#graph_status{display: none;}
+#report_status.active,#graph_status.active{display: contents;}
+.atb{
+    align-items: flex-end !important;
+}
+.box-number{
+    z-index: 2;
+    position: absolute;
+    top: 1em;
+    right: 1.5em;
+    text-align: center;
+    width: 1.5em;
+    height: 1.5em;
+    background: grey;
+    color: white;
+}

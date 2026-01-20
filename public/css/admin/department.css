@@ -1,0 +1,8 @@
+.box_color{
+    width: 1.2em;
+    height: 1.2em;
+}
+.fa-angle-right:hover{
+    color: blue;
+    text-shadow: 0 0 2;
+}

@@ -1,0 +1,9 @@
+div.justify-between{
+    position: absolute;
+    overflow: hidden;
+    opacity: 0;
+}
+.w-5 ,.h-5{
+    width: 15px;
+}
+p{opacity: 0;}

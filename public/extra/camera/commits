@@ -1,0 +1,2394 @@
+/**/commitsCallback({"meta": {
+  "Content-Type": "application/javascript; charset=utf-8",
+  "Cache-Control": "public, max-age=60, s-maxage=60",
+  "Vary": "Accept",
+  "ETag": "\"4711fb4e14824decfc87df8da03541b9\"",
+  "Last-Modified": "Sun, 17 May 2020 17:12:42 GMT",
+  "X-GitHub-Media-Type": "github.v3; format=json",
+  "Link": [
+    [
+      "https://api.github.com/repositories/22424133/commits?sha=master&callback=commitsCallback&page=2",
+      {
+        "rel": "next"
+      }
+    ],
+    [
+      "https://api.github.com/repositories/22424133/commits?sha=master&callback=commitsCallback&page=13",
+      {
+        "rel": "last"
+      }
+    ]
+  ],
+  "status": 200,
+  "X-RateLimit-Limit": "60",
+  "X-RateLimit-Remaining": "52",
+  "X-RateLimit-Reset": "1594577334"
+}, "data": [
+  {
+    "sha": "1fd3e0304c0b4b72ea37b644cbe40efa9f0e654e",
+    "node_id": "MDY6Q29tbWl0MjI0MjQxMzM6MWZkM2UwMzA0YzBiNGI3MmVhMzdiNjQ0Y2JlNDBlZmE5ZjBlNjU0ZQ==",
+    "commit": {
+      "author": {
+        "name": "Muaz Khan",
+        "email": "muazkh@gmail.com",
+        "date": "2020-05-17T17:12:42Z"
+      },
+      "committer": {
+        "name": "Muaz Khan",
+        "email": "muazkh@gmail.com",
+        "date": "2020-05-17T17:12:42Z"
+      },
+      "message": "#615, @thijstriemstra plz test on firefox, still using TRY-CATCH though\n\nhttps://www.webrtc-experiment.com/RecordRTC/simple-demos/WebAssemblyRecorder.html\n\n@thijstriemstra Should we revert PR #615?",
+      "tree": {
+        "sha": "14aee1c44574a1bb77f3961c614e8dabb5d95e6f",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/trees/14aee1c44574a1bb77f3961c614e8dabb5d95e6f"
+      },
+      "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/commits/1fd3e0304c0b4b72ea37b644cbe40efa9f0e654e",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/1fd3e0304c0b4b72ea37b644cbe40efa9f0e654e",
+    "html_url": "https://github.com/muaz-khan/RecordRTC/commit/1fd3e0304c0b4b72ea37b644cbe40efa9f0e654e",
+    "comments_url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/1fd3e0304c0b4b72ea37b644cbe40efa9f0e654e/comments",
+    "author": {
+      "login": "muaz-khan",
+      "id": 477092,
+      "node_id": "MDQ6VXNlcjQ3NzA5Mg==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/477092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/muaz-khan",
+      "html_url": "https://github.com/muaz-khan",
+      "followers_url": "https://api.github.com/users/muaz-khan/followers",
+      "following_url": "https://api.github.com/users/muaz-khan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/muaz-khan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/muaz-khan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/muaz-khan/subscriptions",
+      "organizations_url": "https://api.github.com/users/muaz-khan/orgs",
+      "repos_url": "https://api.github.com/users/muaz-khan/repos",
+      "events_url": "https://api.github.com/users/muaz-khan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/muaz-khan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "muaz-khan",
+      "id": 477092,
+      "node_id": "MDQ6VXNlcjQ3NzA5Mg==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/477092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/muaz-khan",
+      "html_url": "https://github.com/muaz-khan",
+      "followers_url": "https://api.github.com/users/muaz-khan/followers",
+      "following_url": "https://api.github.com/users/muaz-khan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/muaz-khan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/muaz-khan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/muaz-khan/subscriptions",
+      "organizations_url": "https://api.github.com/users/muaz-khan/orgs",
+      "repos_url": "https://api.github.com/users/muaz-khan/repos",
+      "events_url": "https://api.github.com/users/muaz-khan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/muaz-khan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "56af2e4efec0a87af3377c619b78f7e11ed574d1",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/56af2e4efec0a87af3377c619b78f7e11ed574d1",
+        "html_url": "https://github.com/muaz-khan/RecordRTC/commit/56af2e4efec0a87af3377c619b78f7e11ed574d1"
+      }
+    ]
+  },
+  {
+    "sha": "56af2e4efec0a87af3377c619b78f7e11ed574d1",
+    "node_id": "MDY6Q29tbWl0MjI0MjQxMzM6NTZhZjJlNGVmZWMwYTg3YWYzMzc3YzYxOWI3OGY3ZTExZWQ1NzRkMQ==",
+    "commit": {
+      "author": {
+        "name": "Muaz Khan",
+        "email": "muazkh@gmail.com",
+        "date": "2020-05-16T15:25:47Z"
+      },
+      "committer": {
+        "name": "Muaz Khan",
+        "email": "muazkh@gmail.com",
+        "date": "2020-05-16T15:25:47Z"
+      },
+      "message": "5.6.0",
+      "tree": {
+        "sha": "1f42a9d48285614feab323d034c8411b8330cca0",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/trees/1f42a9d48285614feab323d034c8411b8330cca0"
+      },
+      "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/commits/56af2e4efec0a87af3377c619b78f7e11ed574d1",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/56af2e4efec0a87af3377c619b78f7e11ed574d1",
+    "html_url": "https://github.com/muaz-khan/RecordRTC/commit/56af2e4efec0a87af3377c619b78f7e11ed574d1",
+    "comments_url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/56af2e4efec0a87af3377c619b78f7e11ed574d1/comments",
+    "author": {
+      "login": "muaz-khan",
+      "id": 477092,
+      "node_id": "MDQ6VXNlcjQ3NzA5Mg==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/477092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/muaz-khan",
+      "html_url": "https://github.com/muaz-khan",
+      "followers_url": "https://api.github.com/users/muaz-khan/followers",
+      "following_url": "https://api.github.com/users/muaz-khan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/muaz-khan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/muaz-khan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/muaz-khan/subscriptions",
+      "organizations_url": "https://api.github.com/users/muaz-khan/orgs",
+      "repos_url": "https://api.github.com/users/muaz-khan/repos",
+      "events_url": "https://api.github.com/users/muaz-khan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/muaz-khan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "muaz-khan",
+      "id": 477092,
+      "node_id": "MDQ6VXNlcjQ3NzA5Mg==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/477092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/muaz-khan",
+      "html_url": "https://github.com/muaz-khan",
+      "followers_url": "https://api.github.com/users/muaz-khan/followers",
+      "following_url": "https://api.github.com/users/muaz-khan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/muaz-khan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/muaz-khan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/muaz-khan/subscriptions",
+      "organizations_url": "https://api.github.com/users/muaz-khan/orgs",
+      "repos_url": "https://api.github.com/users/muaz-khan/repos",
+      "events_url": "https://api.github.com/users/muaz-khan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/muaz-khan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7fe370f840b9556136680746f78b01acd9e383f9",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/7fe370f840b9556136680746f78b01acd9e383f9",
+        "html_url": "https://github.com/muaz-khan/RecordRTC/commit/7fe370f840b9556136680746f78b01acd9e383f9"
+      }
+    ]
+  },
+  {
+    "sha": "7fe370f840b9556136680746f78b01acd9e383f9",
+    "node_id": "MDY6Q29tbWl0MjI0MjQxMzM6N2ZlMzcwZjg0MGI5NTU2MTM2NjgwNzQ2Zjc4YjAxYWNkOWUzODNmOQ==",
+    "commit": {
+      "author": {
+        "name": "Muaz Khan",
+        "email": "muazkh@gmail.com",
+        "date": "2020-05-13T12:19:30Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2020-05-13T12:19:30Z"
+      },
+      "message": "Merge pull request #615 from jonklein/fix/web_assembly_recorder\n\nFix/web assembly recorder",
+      "tree": {
+        "sha": "d8fa1aee8f3df7dc9bdd607bdc1baca98a888104",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/trees/d8fa1aee8f3df7dc9bdd607bdc1baca98a888104"
+      },
+      "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/commits/7fe370f840b9556136680746f78b01acd9e383f9",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJeu+XSCRBK7hj4Ov3rIwAAdHIIAIf+o1LBkzdGF8AsZN9HcUku\nOAS0OU1RffsSkltjJIUd7p9IpL4gnRaL8x5jEWHiYLbtp6zHcf7tQe//RtdAv6aL\n7HoHX96G+vPHZqA7t8W2UbF2EyntT/OQMzyoPit7Y9VYAc1dL4v2jhqA5FQwQiVU\nmpGWXIWNiI8fzkbfgl2GPuulhwcWHU5uYWimUuw3A9JoTFZSL4EET5EDsEv2XUTS\naJOl7IJ6R9bMeeRaxSWHhWwchj7Fhbqlcbw4lnH7zhYCrPvpHPz2WNZMhzCVY6sB\n/hDSAPWgST9W2M4QZiHIOJ2+48Jh1zQ0snRLXclSviH/6u012aFuDIe4Q81sFwY=\n=ufEA\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree d8fa1aee8f3df7dc9bdd607bdc1baca98a888104\nparent 5019be4e67e9a8ad31afa88fdfbb6d5eee138b5b\nparent 87b63dbe2e8d038aa60b0f780c69e5291a3665f3\nauthor Muaz Khan \u003cmuazkh@gmail.com\u003e 1589372370 +0500\ncommitter GitHub \u003cnoreply@github.com\u003e 1589372370 +0500\n\nMerge pull request #615 from jonklein/fix/web_assembly_recorder\n\nFix/web assembly recorder"
+      }
+    },
+    "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/7fe370f840b9556136680746f78b01acd9e383f9",
+    "html_url": "https://github.com/muaz-khan/RecordRTC/commit/7fe370f840b9556136680746f78b01acd9e383f9",
+    "comments_url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/7fe370f840b9556136680746f78b01acd9e383f9/comments",
+    "author": {
+      "login": "muaz-khan",
+      "id": 477092,
+      "node_id": "MDQ6VXNlcjQ3NzA5Mg==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/477092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/muaz-khan",
+      "html_url": "https://github.com/muaz-khan",
+      "followers_url": "https://api.github.com/users/muaz-khan/followers",
+      "following_url": "https://api.github.com/users/muaz-khan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/muaz-khan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/muaz-khan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/muaz-khan/subscriptions",
+      "organizations_url": "https://api.github.com/users/muaz-khan/orgs",
+      "repos_url": "https://api.github.com/users/muaz-khan/repos",
+      "events_url": "https://api.github.com/users/muaz-khan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/muaz-khan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5019be4e67e9a8ad31afa88fdfbb6d5eee138b5b",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/5019be4e67e9a8ad31afa88fdfbb6d5eee138b5b",
+        "html_url": "https://github.com/muaz-khan/RecordRTC/commit/5019be4e67e9a8ad31afa88fdfbb6d5eee138b5b"
+      },
+      {
+        "sha": "87b63dbe2e8d038aa60b0f780c69e5291a3665f3",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/87b63dbe2e8d038aa60b0f780c69e5291a3665f3",
+        "html_url": "https://github.com/muaz-khan/RecordRTC/commit/87b63dbe2e8d038aa60b0f780c69e5291a3665f3"
+      }
+    ]
+  },
+  {
+    "sha": "5019be4e67e9a8ad31afa88fdfbb6d5eee138b5b",
+    "node_id": "MDY6Q29tbWl0MjI0MjQxMzM6NTAxOWJlNGU2N2U5YThhZDMxYWZhODhmZGZiYjZkNWVlZTEzOGI1Yg==",
+    "commit": {
+      "author": {
+        "name": "Muaz Khan",
+        "email": "muazkh@gmail.com",
+        "date": "2020-05-02T06:20:29Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2020-05-02T06:20:29Z"
+      },
+      "message": "Merge pull request #610 from shivamarora123/Fix/fileDelete\n\nFix callback must be a function",
+      "tree": {
+        "sha": "f0181eff23b6996b7849fb2842c470d7ad29e9a8",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/trees/f0181eff23b6996b7849fb2842c470d7ad29e9a8"
+      },
+      "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/commits/5019be4e67e9a8ad31afa88fdfbb6d5eee138b5b",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJerREtCRBK7hj4Ov3rIwAAdHIIAFYYXDRTbgY0irxt2QKCHS3Y\n16AYWdwjDQ+VJ0WpOoXDy0WgpO1gH9qm1qDAoRWRDGnGtiHVtKnjg7m9b6i6vSXW\n2y6f1oa0xXyUzIYVlIQVWgR0fcga44PCR061ngK7gvayVhcpTiJhBhTKaRz/bfrT\n1N9vFHNNVU3+yIoi60Z+HQTg2MRkPfHvoGjmdnTzuOuPtrghNdHc8LP4cqjiN5sF\nvaMmaweeYutVZ4KkgLAUarnSUnm7OacxKDjbnWPtvFZrktGZkLucruLQUP4BVjET\nTqPBsM3R1jPKP9ATgvxjsDZ53ICOGWVdG43s5fqjLc8MK0t9q7KXoxvx/VfIzO8=\n=AqNj\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree f0181eff23b6996b7849fb2842c470d7ad29e9a8\nparent cb0c9fa5a46395221a98e2acc6e338263b2bfe0a\nparent aa7053fae9592e78ca524cc6c04b65261ce0014f\nauthor Muaz Khan \u003cmuazkh@gmail.com\u003e 1588400429 +0500\ncommitter GitHub \u003cnoreply@github.com\u003e 1588400429 +0500\n\nMerge pull request #610 from shivamarora123/Fix/fileDelete\n\nFix callback must be a function"
+      }
+    },
+    "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/5019be4e67e9a8ad31afa88fdfbb6d5eee138b5b",
+    "html_url": "https://github.com/muaz-khan/RecordRTC/commit/5019be4e67e9a8ad31afa88fdfbb6d5eee138b5b",
+    "comments_url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/5019be4e67e9a8ad31afa88fdfbb6d5eee138b5b/comments",
+    "author": {
+      "login": "muaz-khan",
+      "id": 477092,
+      "node_id": "MDQ6VXNlcjQ3NzA5Mg==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/477092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/muaz-khan",
+      "html_url": "https://github.com/muaz-khan",
+      "followers_url": "https://api.github.com/users/muaz-khan/followers",
+      "following_url": "https://api.github.com/users/muaz-khan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/muaz-khan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/muaz-khan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/muaz-khan/subscriptions",
+      "organizations_url": "https://api.github.com/users/muaz-khan/orgs",
+      "repos_url": "https://api.github.com/users/muaz-khan/repos",
+      "events_url": "https://api.github.com/users/muaz-khan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/muaz-khan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "cb0c9fa5a46395221a98e2acc6e338263b2bfe0a",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/cb0c9fa5a46395221a98e2acc6e338263b2bfe0a",
+        "html_url": "https://github.com/muaz-khan/RecordRTC/commit/cb0c9fa5a46395221a98e2acc6e338263b2bfe0a"
+      },
+      {
+        "sha": "aa7053fae9592e78ca524cc6c04b65261ce0014f",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/aa7053fae9592e78ca524cc6c04b65261ce0014f",
+        "html_url": "https://github.com/muaz-khan/RecordRTC/commit/aa7053fae9592e78ca524cc6c04b65261ce0014f"
+      }
+    ]
+  },
+  {
+    "sha": "aa7053fae9592e78ca524cc6c04b65261ce0014f",
+    "node_id": "MDY6Q29tbWl0MjI0MjQxMzM6YWE3MDUzZmFlOTU5MmU3OGNhNTI0Y2M2YzA0YjY1MjYxY2UwMDE0Zg==",
+    "commit": {
+      "author": {
+        "name": "Shivam Arora",
+        "email": "shivam.arora@cybernetyx.com",
+        "date": "2020-05-01T22:38:50Z"
+      },
+      "committer": {
+        "name": "Shivam Arora",
+        "email": "shivam.arora@cybernetyx.com",
+        "date": "2020-05-01T22:38:50Z"
+      },
+      "message": "semi colon added",
+      "tree": {
+        "sha": "f0181eff23b6996b7849fb2842c470d7ad29e9a8",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/trees/f0181eff23b6996b7849fb2842c470d7ad29e9a8"
+      },
+      "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/commits/aa7053fae9592e78ca524cc6c04b65261ce0014f",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/aa7053fae9592e78ca524cc6c04b65261ce0014f",
+    "html_url": "https://github.com/muaz-khan/RecordRTC/commit/aa7053fae9592e78ca524cc6c04b65261ce0014f",
+    "comments_url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/aa7053fae9592e78ca524cc6c04b65261ce0014f/comments",
+    "author": {
+      "login": "shivamaroracnx",
+      "id": 55090664,
+      "node_id": "MDQ6VXNlcjU1MDkwNjY0",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/55090664?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/shivamaroracnx",
+      "html_url": "https://github.com/shivamaroracnx",
+      "followers_url": "https://api.github.com/users/shivamaroracnx/followers",
+      "following_url": "https://api.github.com/users/shivamaroracnx/following{/other_user}",
+      "gists_url": "https://api.github.com/users/shivamaroracnx/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/shivamaroracnx/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/shivamaroracnx/subscriptions",
+      "organizations_url": "https://api.github.com/users/shivamaroracnx/orgs",
+      "repos_url": "https://api.github.com/users/shivamaroracnx/repos",
+      "events_url": "https://api.github.com/users/shivamaroracnx/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/shivamaroracnx/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "shivamaroracnx",
+      "id": 55090664,
+      "node_id": "MDQ6VXNlcjU1MDkwNjY0",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/55090664?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/shivamaroracnx",
+      "html_url": "https://github.com/shivamaroracnx",
+      "followers_url": "https://api.github.com/users/shivamaroracnx/followers",
+      "following_url": "https://api.github.com/users/shivamaroracnx/following{/other_user}",
+      "gists_url": "https://api.github.com/users/shivamaroracnx/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/shivamaroracnx/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/shivamaroracnx/subscriptions",
+      "organizations_url": "https://api.github.com/users/shivamaroracnx/orgs",
+      "repos_url": "https://api.github.com/users/shivamaroracnx/repos",
+      "events_url": "https://api.github.com/users/shivamaroracnx/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/shivamaroracnx/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a4c38876dd0ccad7d572cd7b5c701707771ecaeb",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/a4c38876dd0ccad7d572cd7b5c701707771ecaeb",
+        "html_url": "https://github.com/muaz-khan/RecordRTC/commit/a4c38876dd0ccad7d572cd7b5c701707771ecaeb"
+      }
+    ]
+  },
+  {
+    "sha": "a4c38876dd0ccad7d572cd7b5c701707771ecaeb",
+    "node_id": "MDY6Q29tbWl0MjI0MjQxMzM6YTRjMzg4NzZkZDBjY2FkN2Q1NzJjZDdiNWM3MDE3MDc3NzFlY2FlYg==",
+    "commit": {
+      "author": {
+        "name": "Shivam Arora",
+        "email": "shivam.arora@cybernetyx.com",
+        "date": "2020-05-01T22:35:50Z"
+      },
+      "committer": {
+        "name": "Shivam Arora",
+        "email": "shivam.arora@cybernetyx.com",
+        "date": "2020-05-01T22:35:50Z"
+      },
+      "message": "fs unlink function changed",
+      "tree": {
+        "sha": "e364b1c310b48460e40791db2dcfc3c87f2c39c0",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/trees/e364b1c310b48460e40791db2dcfc3c87f2c39c0"
+      },
+      "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/commits/a4c38876dd0ccad7d572cd7b5c701707771ecaeb",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/a4c38876dd0ccad7d572cd7b5c701707771ecaeb",
+    "html_url": "https://github.com/muaz-khan/RecordRTC/commit/a4c38876dd0ccad7d572cd7b5c701707771ecaeb",
+    "comments_url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/a4c38876dd0ccad7d572cd7b5c701707771ecaeb/comments",
+    "author": {
+      "login": "shivamaroracnx",
+      "id": 55090664,
+      "node_id": "MDQ6VXNlcjU1MDkwNjY0",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/55090664?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/shivamaroracnx",
+      "html_url": "https://github.com/shivamaroracnx",
+      "followers_url": "https://api.github.com/users/shivamaroracnx/followers",
+      "following_url": "https://api.github.com/users/shivamaroracnx/following{/other_user}",
+      "gists_url": "https://api.github.com/users/shivamaroracnx/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/shivamaroracnx/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/shivamaroracnx/subscriptions",
+      "organizations_url": "https://api.github.com/users/shivamaroracnx/orgs",
+      "repos_url": "https://api.github.com/users/shivamaroracnx/repos",
+      "events_url": "https://api.github.com/users/shivamaroracnx/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/shivamaroracnx/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "shivamaroracnx",
+      "id": 55090664,
+      "node_id": "MDQ6VXNlcjU1MDkwNjY0",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/55090664?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/shivamaroracnx",
+      "html_url": "https://github.com/shivamaroracnx",
+      "followers_url": "https://api.github.com/users/shivamaroracnx/followers",
+      "following_url": "https://api.github.com/users/shivamaroracnx/following{/other_user}",
+      "gists_url": "https://api.github.com/users/shivamaroracnx/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/shivamaroracnx/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/shivamaroracnx/subscriptions",
+      "organizations_url": "https://api.github.com/users/shivamaroracnx/orgs",
+      "repos_url": "https://api.github.com/users/shivamaroracnx/repos",
+      "events_url": "https://api.github.com/users/shivamaroracnx/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/shivamaroracnx/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "07feb812fa53bb1f2c2ed22ff1e16b397ca0e919",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/07feb812fa53bb1f2c2ed22ff1e16b397ca0e919",
+        "html_url": "https://github.com/muaz-khan/RecordRTC/commit/07feb812fa53bb1f2c2ed22ff1e16b397ca0e919"
+      }
+    ]
+  },
+  {
+    "sha": "07feb812fa53bb1f2c2ed22ff1e16b397ca0e919",
+    "node_id": "MDY6Q29tbWl0MjI0MjQxMzM6MDdmZWI4MTJmYTUzYmIxZjJjMmVkMjJmZjFlMTZiMzk3Y2EwZTkxOQ==",
+    "commit": {
+      "author": {
+        "name": "Shivam Arora",
+        "email": "shivam.arora@cybernetyx.com",
+        "date": "2020-05-01T22:33:11Z"
+      },
+      "committer": {
+        "name": "Shivam Arora",
+        "email": "shivam.arora@cybernetyx.com",
+        "date": "2020-05-01T22:33:11Z"
+      },
+      "message": "callback added while unlinking  file using fs",
+      "tree": {
+        "sha": "46dcc634614bd4a71812d1b3d29444567182e1fc",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/trees/46dcc634614bd4a71812d1b3d29444567182e1fc"
+      },
+      "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/commits/07feb812fa53bb1f2c2ed22ff1e16b397ca0e919",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/07feb812fa53bb1f2c2ed22ff1e16b397ca0e919",
+    "html_url": "https://github.com/muaz-khan/RecordRTC/commit/07feb812fa53bb1f2c2ed22ff1e16b397ca0e919",
+    "comments_url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/07feb812fa53bb1f2c2ed22ff1e16b397ca0e919/comments",
+    "author": {
+      "login": "shivamaroracnx",
+      "id": 55090664,
+      "node_id": "MDQ6VXNlcjU1MDkwNjY0",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/55090664?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/shivamaroracnx",
+      "html_url": "https://github.com/shivamaroracnx",
+      "followers_url": "https://api.github.com/users/shivamaroracnx/followers",
+      "following_url": "https://api.github.com/users/shivamaroracnx/following{/other_user}",
+      "gists_url": "https://api.github.com/users/shivamaroracnx/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/shivamaroracnx/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/shivamaroracnx/subscriptions",
+      "organizations_url": "https://api.github.com/users/shivamaroracnx/orgs",
+      "repos_url": "https://api.github.com/users/shivamaroracnx/repos",
+      "events_url": "https://api.github.com/users/shivamaroracnx/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/shivamaroracnx/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "shivamaroracnx",
+      "id": 55090664,
+      "node_id": "MDQ6VXNlcjU1MDkwNjY0",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/55090664?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/shivamaroracnx",
+      "html_url": "https://github.com/shivamaroracnx",
+      "followers_url": "https://api.github.com/users/shivamaroracnx/followers",
+      "following_url": "https://api.github.com/users/shivamaroracnx/following{/other_user}",
+      "gists_url": "https://api.github.com/users/shivamaroracnx/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/shivamaroracnx/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/shivamaroracnx/subscriptions",
+      "organizations_url": "https://api.github.com/users/shivamaroracnx/orgs",
+      "repos_url": "https://api.github.com/users/shivamaroracnx/repos",
+      "events_url": "https://api.github.com/users/shivamaroracnx/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/shivamaroracnx/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "cb0c9fa5a46395221a98e2acc6e338263b2bfe0a",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/cb0c9fa5a46395221a98e2acc6e338263b2bfe0a",
+        "html_url": "https://github.com/muaz-khan/RecordRTC/commit/cb0c9fa5a46395221a98e2acc6e338263b2bfe0a"
+      }
+    ]
+  },
+  {
+    "sha": "cb0c9fa5a46395221a98e2acc6e338263b2bfe0a",
+    "node_id": "MDY6Q29tbWl0MjI0MjQxMzM6Y2IwYzlmYTVhNDYzOTUyMjFhOThlMmFjYzZlMzM4MjYzYjJiZmUwYQ==",
+    "commit": {
+      "author": {
+        "name": "Muaz Khan",
+        "email": "muazkh@gmail.com",
+        "date": "2020-04-28T21:34:35Z"
+      },
+      "committer": {
+        "name": "Muaz Khan",
+        "email": "muazkh@gmail.com",
+        "date": "2020-04-28T21:34:35Z"
+      },
+      "message": "new Edge works on both Win 7/8/10 and MacOSX",
+      "tree": {
+        "sha": "d098c6cd1f18b33497cb2f4bb471bc5f6e30ee6e",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/trees/d098c6cd1f18b33497cb2f4bb471bc5f6e30ee6e"
+      },
+      "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/commits/cb0c9fa5a46395221a98e2acc6e338263b2bfe0a",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/cb0c9fa5a46395221a98e2acc6e338263b2bfe0a",
+    "html_url": "https://github.com/muaz-khan/RecordRTC/commit/cb0c9fa5a46395221a98e2acc6e338263b2bfe0a",
+    "comments_url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/cb0c9fa5a46395221a98e2acc6e338263b2bfe0a/comments",
+    "author": {
+      "login": "muaz-khan",
+      "id": 477092,
+      "node_id": "MDQ6VXNlcjQ3NzA5Mg==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/477092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/muaz-khan",
+      "html_url": "https://github.com/muaz-khan",
+      "followers_url": "https://api.github.com/users/muaz-khan/followers",
+      "following_url": "https://api.github.com/users/muaz-khan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/muaz-khan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/muaz-khan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/muaz-khan/subscriptions",
+      "organizations_url": "https://api.github.com/users/muaz-khan/orgs",
+      "repos_url": "https://api.github.com/users/muaz-khan/repos",
+      "events_url": "https://api.github.com/users/muaz-khan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/muaz-khan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "muaz-khan",
+      "id": 477092,
+      "node_id": "MDQ6VXNlcjQ3NzA5Mg==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/477092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/muaz-khan",
+      "html_url": "https://github.com/muaz-khan",
+      "followers_url": "https://api.github.com/users/muaz-khan/followers",
+      "following_url": "https://api.github.com/users/muaz-khan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/muaz-khan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/muaz-khan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/muaz-khan/subscriptions",
+      "organizations_url": "https://api.github.com/users/muaz-khan/orgs",
+      "repos_url": "https://api.github.com/users/muaz-khan/repos",
+      "events_url": "https://api.github.com/users/muaz-khan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/muaz-khan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2c66bcd4903124e182469f9f6581d8cc7a8e87f9",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/2c66bcd4903124e182469f9f6581d8cc7a8e87f9",
+        "html_url": "https://github.com/muaz-khan/RecordRTC/commit/2c66bcd4903124e182469f9f6581d8cc7a8e87f9"
+      }
+    ]
+  },
+  {
+    "sha": "2c66bcd4903124e182469f9f6581d8cc7a8e87f9",
+    "node_id": "MDY6Q29tbWl0MjI0MjQxMzM6MmM2NmJjZDQ5MDMxMjRlMTgyNDY5ZjlmNjU4MWQ4Y2M3YThlODdmOQ==",
+    "commit": {
+      "author": {
+        "name": "Muaz Khan",
+        "email": "muazkh@gmail.com",
+        "date": "2020-04-28T11:03:14Z"
+      },
+      "committer": {
+        "name": "Muaz Khan",
+        "email": "muazkh@gmail.com",
+        "date": "2020-04-28T11:03:14Z"
+      },
+      "message": "\"Edge built on Chromium\" supports video recording - #473\n\nhttps://www.microsoft.com/en-us/edge",
+      "tree": {
+        "sha": "4e7df033f4eaddf8a1ac776ead95b19d21dfe114",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/trees/4e7df033f4eaddf8a1ac776ead95b19d21dfe114"
+      },
+      "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/commits/2c66bcd4903124e182469f9f6581d8cc7a8e87f9",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/2c66bcd4903124e182469f9f6581d8cc7a8e87f9",
+    "html_url": "https://github.com/muaz-khan/RecordRTC/commit/2c66bcd4903124e182469f9f6581d8cc7a8e87f9",
+    "comments_url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/2c66bcd4903124e182469f9f6581d8cc7a8e87f9/comments",
+    "author": {
+      "login": "muaz-khan",
+      "id": 477092,
+      "node_id": "MDQ6VXNlcjQ3NzA5Mg==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/477092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/muaz-khan",
+      "html_url": "https://github.com/muaz-khan",
+      "followers_url": "https://api.github.com/users/muaz-khan/followers",
+      "following_url": "https://api.github.com/users/muaz-khan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/muaz-khan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/muaz-khan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/muaz-khan/subscriptions",
+      "organizations_url": "https://api.github.com/users/muaz-khan/orgs",
+      "repos_url": "https://api.github.com/users/muaz-khan/repos",
+      "events_url": "https://api.github.com/users/muaz-khan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/muaz-khan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "muaz-khan",
+      "id": 477092,
+      "node_id": "MDQ6VXNlcjQ3NzA5Mg==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/477092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/muaz-khan",
+      "html_url": "https://github.com/muaz-khan",
+      "followers_url": "https://api.github.com/users/muaz-khan/followers",
+      "following_url": "https://api.github.com/users/muaz-khan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/muaz-khan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/muaz-khan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/muaz-khan/subscriptions",
+      "organizations_url": "https://api.github.com/users/muaz-khan/orgs",
+      "repos_url": "https://api.github.com/users/muaz-khan/repos",
+      "events_url": "https://api.github.com/users/muaz-khan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/muaz-khan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "cd6e4cfcd9d8c19523b9bead80c4bf901ef1bf41",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/cd6e4cfcd9d8c19523b9bead80c4bf901ef1bf41",
+        "html_url": "https://github.com/muaz-khan/RecordRTC/commit/cd6e4cfcd9d8c19523b9bead80c4bf901ef1bf41"
+      }
+    ]
+  },
+  {
+    "sha": "87b63dbe2e8d038aa60b0f780c69e5291a3665f3",
+    "node_id": "MDY6Q29tbWl0MjI0MjQxMzM6ODdiNjNkYmUyZThkMDM4YWE2MGIwZjc4MGM2OWU1MjkxYTM2NjVmMw==",
+    "commit": {
+      "author": {
+        "name": "Jonathan Klein",
+        "email": "jk@kleininen.com",
+        "date": "2020-04-24T16:29:51Z"
+      },
+      "committer": {
+        "name": "Jonathan Klein",
+        "email": "jk@kleininen.com",
+        "date": "2020-04-24T16:39:10Z"
+      },
+      "message": "add onFirstData callback to allow better synchronization of video/audio streams",
+      "tree": {
+        "sha": "44351e4eac992663897b6cc60325436456d7d0bd",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/trees/44351e4eac992663897b6cc60325436456d7d0bd"
+      },
+      "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/commits/87b63dbe2e8d038aa60b0f780c69e5291a3665f3",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/87b63dbe2e8d038aa60b0f780c69e5291a3665f3",
+    "html_url": "https://github.com/muaz-khan/RecordRTC/commit/87b63dbe2e8d038aa60b0f780c69e5291a3665f3",
+    "comments_url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/87b63dbe2e8d038aa60b0f780c69e5291a3665f3/comments",
+    "author": {
+      "login": "jonklein",
+      "id": 194568,
+      "node_id": "MDQ6VXNlcjE5NDU2OA==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/194568?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jonklein",
+      "html_url": "https://github.com/jonklein",
+      "followers_url": "https://api.github.com/users/jonklein/followers",
+      "following_url": "https://api.github.com/users/jonklein/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jonklein/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jonklein/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jonklein/subscriptions",
+      "organizations_url": "https://api.github.com/users/jonklein/orgs",
+      "repos_url": "https://api.github.com/users/jonklein/repos",
+      "events_url": "https://api.github.com/users/jonklein/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jonklein/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jonklein",
+      "id": 194568,
+      "node_id": "MDQ6VXNlcjE5NDU2OA==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/194568?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jonklein",
+      "html_url": "https://github.com/jonklein",
+      "followers_url": "https://api.github.com/users/jonklein/followers",
+      "following_url": "https://api.github.com/users/jonklein/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jonklein/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jonklein/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jonklein/subscriptions",
+      "organizations_url": "https://api.github.com/users/jonklein/orgs",
+      "repos_url": "https://api.github.com/users/jonklein/repos",
+      "events_url": "https://api.github.com/users/jonklein/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jonklein/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2f7dd610182890442194e1f9b2227e8179858733",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/2f7dd610182890442194e1f9b2227e8179858733",
+        "html_url": "https://github.com/muaz-khan/RecordRTC/commit/2f7dd610182890442194e1f9b2227e8179858733"
+      }
+    ]
+  },
+  {
+    "sha": "2f7dd610182890442194e1f9b2227e8179858733",
+    "node_id": "MDY6Q29tbWl0MjI0MjQxMzM6MmY3ZGQ2MTAxODI4OTA0NDIxOTRlMWY5YjIyMjdlODE3OTg1ODczMw==",
+    "commit": {
+      "author": {
+        "name": "Jonathan Klein",
+        "email": "jk@kleininen.com",
+        "date": "2020-04-24T16:03:24Z"
+      },
+      "committer": {
+        "name": "Jonathan Klein",
+        "email": "jk@kleininen.com",
+        "date": "2020-04-24T16:03:24Z"
+      },
+      "message": "fix end-of-recording behavior to capture all data",
+      "tree": {
+        "sha": "ac42efddc2658d90d70d90830ac9d7d5a14d213f",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/trees/ac42efddc2658d90d70d90830ac9d7d5a14d213f"
+      },
+      "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/commits/2f7dd610182890442194e1f9b2227e8179858733",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/2f7dd610182890442194e1f9b2227e8179858733",
+    "html_url": "https://github.com/muaz-khan/RecordRTC/commit/2f7dd610182890442194e1f9b2227e8179858733",
+    "comments_url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/2f7dd610182890442194e1f9b2227e8179858733/comments",
+    "author": {
+      "login": "jonklein",
+      "id": 194568,
+      "node_id": "MDQ6VXNlcjE5NDU2OA==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/194568?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jonklein",
+      "html_url": "https://github.com/jonklein",
+      "followers_url": "https://api.github.com/users/jonklein/followers",
+      "following_url": "https://api.github.com/users/jonklein/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jonklein/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jonklein/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jonklein/subscriptions",
+      "organizations_url": "https://api.github.com/users/jonklein/orgs",
+      "repos_url": "https://api.github.com/users/jonklein/repos",
+      "events_url": "https://api.github.com/users/jonklein/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jonklein/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jonklein",
+      "id": 194568,
+      "node_id": "MDQ6VXNlcjE5NDU2OA==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/194568?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jonklein",
+      "html_url": "https://github.com/jonklein",
+      "followers_url": "https://api.github.com/users/jonklein/followers",
+      "following_url": "https://api.github.com/users/jonklein/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jonklein/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jonklein/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jonklein/subscriptions",
+      "organizations_url": "https://api.github.com/users/jonklein/orgs",
+      "repos_url": "https://api.github.com/users/jonklein/repos",
+      "events_url": "https://api.github.com/users/jonklein/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jonklein/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f5208a7a227585d9e47d65de77488808aa0ba490",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/f5208a7a227585d9e47d65de77488808aa0ba490",
+        "html_url": "https://github.com/muaz-khan/RecordRTC/commit/f5208a7a227585d9e47d65de77488808aa0ba490"
+      }
+    ]
+  },
+  {
+    "sha": "f5208a7a227585d9e47d65de77488808aa0ba490",
+    "node_id": "MDY6Q29tbWl0MjI0MjQxMzM6ZjUyMDhhN2EyMjc1ODVkOWU0N2Q2NWRlNzc0ODg4MDhhYTBiYTQ5MA==",
+    "commit": {
+      "author": {
+        "name": "Jonathan Klein",
+        "email": "jk@kleininen.com",
+        "date": "2020-04-24T14:17:26Z"
+      },
+      "committer": {
+        "name": "Jonathan Klein",
+        "email": "jk@kleininen.com",
+        "date": "2020-04-24T14:17:26Z"
+      },
+      "message": "WebAssemblyRecorder fixes: fix video time drift, fix audio feedback, clean up setTimeout to fix leak",
+      "tree": {
+        "sha": "3e6e5625f1407babfa5ee2a23b24cc456cc4219a",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/trees/3e6e5625f1407babfa5ee2a23b24cc456cc4219a"
+      },
+      "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/commits/f5208a7a227585d9e47d65de77488808aa0ba490",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/f5208a7a227585d9e47d65de77488808aa0ba490",
+    "html_url": "https://github.com/muaz-khan/RecordRTC/commit/f5208a7a227585d9e47d65de77488808aa0ba490",
+    "comments_url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/f5208a7a227585d9e47d65de77488808aa0ba490/comments",
+    "author": {
+      "login": "jonklein",
+      "id": 194568,
+      "node_id": "MDQ6VXNlcjE5NDU2OA==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/194568?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jonklein",
+      "html_url": "https://github.com/jonklein",
+      "followers_url": "https://api.github.com/users/jonklein/followers",
+      "following_url": "https://api.github.com/users/jonklein/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jonklein/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jonklein/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jonklein/subscriptions",
+      "organizations_url": "https://api.github.com/users/jonklein/orgs",
+      "repos_url": "https://api.github.com/users/jonklein/repos",
+      "events_url": "https://api.github.com/users/jonklein/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jonklein/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jonklein",
+      "id": 194568,
+      "node_id": "MDQ6VXNlcjE5NDU2OA==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/194568?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jonklein",
+      "html_url": "https://github.com/jonklein",
+      "followers_url": "https://api.github.com/users/jonklein/followers",
+      "following_url": "https://api.github.com/users/jonklein/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jonklein/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jonklein/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jonklein/subscriptions",
+      "organizations_url": "https://api.github.com/users/jonklein/orgs",
+      "repos_url": "https://api.github.com/users/jonklein/repos",
+      "events_url": "https://api.github.com/users/jonklein/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jonklein/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "cd6e4cfcd9d8c19523b9bead80c4bf901ef1bf41",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/cd6e4cfcd9d8c19523b9bead80c4bf901ef1bf41",
+        "html_url": "https://github.com/muaz-khan/RecordRTC/commit/cd6e4cfcd9d8c19523b9bead80c4bf901ef1bf41"
+      }
+    ]
+  },
+  {
+    "sha": "cd6e4cfcd9d8c19523b9bead80c4bf901ef1bf41",
+    "node_id": "MDY6Q29tbWl0MjI0MjQxMzM6Y2Q2ZTRjZmNkOWQ4YzE5NTIzYjliZWFkODBjNGJmOTAxZWYxYmY0MQ==",
+    "commit": {
+      "author": {
+        "name": "Muaz Khan",
+        "email": "muazkh@gmail.com",
+        "date": "2020-02-26T13:20:44Z"
+      },
+      "committer": {
+        "name": "Muaz Khan",
+        "email": "muazkh@gmail.com",
+        "date": "2020-02-26T13:20:44Z"
+      },
+      "message": "Update README.md",
+      "tree": {
+        "sha": "f9acfd3244cab051eafb3894d5d4f12e54f79486",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/trees/f9acfd3244cab051eafb3894d5d4f12e54f79486"
+      },
+      "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/commits/cd6e4cfcd9d8c19523b9bead80c4bf901ef1bf41",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/cd6e4cfcd9d8c19523b9bead80c4bf901ef1bf41",
+    "html_url": "https://github.com/muaz-khan/RecordRTC/commit/cd6e4cfcd9d8c19523b9bead80c4bf901ef1bf41",
+    "comments_url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/cd6e4cfcd9d8c19523b9bead80c4bf901ef1bf41/comments",
+    "author": {
+      "login": "muaz-khan",
+      "id": 477092,
+      "node_id": "MDQ6VXNlcjQ3NzA5Mg==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/477092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/muaz-khan",
+      "html_url": "https://github.com/muaz-khan",
+      "followers_url": "https://api.github.com/users/muaz-khan/followers",
+      "following_url": "https://api.github.com/users/muaz-khan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/muaz-khan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/muaz-khan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/muaz-khan/subscriptions",
+      "organizations_url": "https://api.github.com/users/muaz-khan/orgs",
+      "repos_url": "https://api.github.com/users/muaz-khan/repos",
+      "events_url": "https://api.github.com/users/muaz-khan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/muaz-khan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "muaz-khan",
+      "id": 477092,
+      "node_id": "MDQ6VXNlcjQ3NzA5Mg==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/477092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/muaz-khan",
+      "html_url": "https://github.com/muaz-khan",
+      "followers_url": "https://api.github.com/users/muaz-khan/followers",
+      "following_url": "https://api.github.com/users/muaz-khan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/muaz-khan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/muaz-khan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/muaz-khan/subscriptions",
+      "organizations_url": "https://api.github.com/users/muaz-khan/orgs",
+      "repos_url": "https://api.github.com/users/muaz-khan/repos",
+      "events_url": "https://api.github.com/users/muaz-khan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/muaz-khan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "71d659930113f64826e193be7dec1fea4d7634bd",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/71d659930113f64826e193be7dec1fea4d7634bd",
+        "html_url": "https://github.com/muaz-khan/RecordRTC/commit/71d659930113f64826e193be7dec1fea4d7634bd"
+      }
+    ]
+  },
+  {
+    "sha": "71d659930113f64826e193be7dec1fea4d7634bd",
+    "node_id": "MDY6Q29tbWl0MjI0MjQxMzM6NzFkNjU5OTMwMTEzZjY0ODI2ZTE5M2JlN2RlYzFmZWE0ZDc2MzRiZA==",
+    "commit": {
+      "author": {
+        "name": "Muaz Khan",
+        "email": "muazkh@gmail.com",
+        "date": "2020-02-26T13:12:15Z"
+      },
+      "committer": {
+        "name": "Muaz Khan",
+        "email": "muazkh@gmail.com",
+        "date": "2020-02-26T13:12:15Z"
+      },
+      "message": "Grunt #504",
+      "tree": {
+        "sha": "255e5156513930ef1927ea01ea4c9ba4f149689b",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/trees/255e5156513930ef1927ea01ea4c9ba4f149689b"
+      },
+      "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/commits/71d659930113f64826e193be7dec1fea4d7634bd",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/71d659930113f64826e193be7dec1fea4d7634bd",
+    "html_url": "https://github.com/muaz-khan/RecordRTC/commit/71d659930113f64826e193be7dec1fea4d7634bd",
+    "comments_url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/71d659930113f64826e193be7dec1fea4d7634bd/comments",
+    "author": {
+      "login": "muaz-khan",
+      "id": 477092,
+      "node_id": "MDQ6VXNlcjQ3NzA5Mg==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/477092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/muaz-khan",
+      "html_url": "https://github.com/muaz-khan",
+      "followers_url": "https://api.github.com/users/muaz-khan/followers",
+      "following_url": "https://api.github.com/users/muaz-khan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/muaz-khan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/muaz-khan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/muaz-khan/subscriptions",
+      "organizations_url": "https://api.github.com/users/muaz-khan/orgs",
+      "repos_url": "https://api.github.com/users/muaz-khan/repos",
+      "events_url": "https://api.github.com/users/muaz-khan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/muaz-khan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "muaz-khan",
+      "id": 477092,
+      "node_id": "MDQ6VXNlcjQ3NzA5Mg==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/477092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/muaz-khan",
+      "html_url": "https://github.com/muaz-khan",
+      "followers_url": "https://api.github.com/users/muaz-khan/followers",
+      "following_url": "https://api.github.com/users/muaz-khan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/muaz-khan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/muaz-khan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/muaz-khan/subscriptions",
+      "organizations_url": "https://api.github.com/users/muaz-khan/orgs",
+      "repos_url": "https://api.github.com/users/muaz-khan/repos",
+      "events_url": "https://api.github.com/users/muaz-khan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/muaz-khan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0d617d0f6f165022af910c495c3ad91e617f94ed",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/0d617d0f6f165022af910c495c3ad91e617f94ed",
+        "html_url": "https://github.com/muaz-khan/RecordRTC/commit/0d617d0f6f165022af910c495c3ad91e617f94ed"
+      }
+    ]
+  },
+  {
+    "sha": "0d617d0f6f165022af910c495c3ad91e617f94ed",
+    "node_id": "MDY6Q29tbWl0MjI0MjQxMzM6MGQ2MTdkMGY2ZjE2NTAyMmFmOTEwYzQ5NWMzYWQ5MWU2MTdmOTRlZA==",
+    "commit": {
+      "author": {
+        "name": "Muaz Khan",
+        "email": "muazkh@gmail.com",
+        "date": "2020-02-26T13:10:52Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2020-02-26T13:10:52Z"
+      },
+      "message": "Merge pull request #504 from xcloarec/stereo-recorder-global-storage\n\nUse window.Storage in StereoAudioRecorder, fixed #495 and fixed #578",
+      "tree": {
+        "sha": "6ca7ca4168962a4bc7b93e211b96743421332045",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/trees/6ca7ca4168962a4bc7b93e211b96743421332045"
+      },
+      "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/commits/0d617d0f6f165022af910c495c3ad91e617f94ed",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJeVm5cCRBK7hj4Ov3rIwAAdHIIAAqRva8wx7iCxkh71qanwztI\nKChnvWxtrxMIdSUVXEjBGCi0YZOn291YJE8TBMjHn9CsziePfNOCAZDIyHH6TC7q\nuY9mlMVIvQ4h7snbhWYehz/KCpxIyU6gsA7eHh0EiexBO5rcDVod9mo/Dkf06Knz\nUraFAsY2MpSLubyv8favOigya9a17qiTLyR6VAO9IZkYgKFcqZ9XWvdDmXMamZpa\nzotJ4kMIxSi4otH1KpidTI74JpKNDxxt/ofcp+gQ9fVoAvQi11BqKKSZ33PSC5R/\nKgUoRSjw/d/yrciH+StCShwtQRVh4B0f8iRVmMRlYpZmDOnyBguaG8kn3mtfVW0=\n=wMTo\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 6ca7ca4168962a4bc7b93e211b96743421332045\nparent 552eb3befe5539966647f8dbaf75ddf17a142c5d\nparent b58f0d7555d89b11b76244c91484b45a04c7a4bf\nauthor Muaz Khan \u003cmuazkh@gmail.com\u003e 1582722652 +0500\ncommitter GitHub \u003cnoreply@github.com\u003e 1582722652 +0500\n\nMerge pull request #504 from xcloarec/stereo-recorder-global-storage\n\nUse window.Storage in StereoAudioRecorder, fixed #495 and fixed #578"
+      }
+    },
+    "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/0d617d0f6f165022af910c495c3ad91e617f94ed",
+    "html_url": "https://github.com/muaz-khan/RecordRTC/commit/0d617d0f6f165022af910c495c3ad91e617f94ed",
+    "comments_url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/0d617d0f6f165022af910c495c3ad91e617f94ed/comments",
+    "author": {
+      "login": "muaz-khan",
+      "id": 477092,
+      "node_id": "MDQ6VXNlcjQ3NzA5Mg==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/477092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/muaz-khan",
+      "html_url": "https://github.com/muaz-khan",
+      "followers_url": "https://api.github.com/users/muaz-khan/followers",
+      "following_url": "https://api.github.com/users/muaz-khan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/muaz-khan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/muaz-khan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/muaz-khan/subscriptions",
+      "organizations_url": "https://api.github.com/users/muaz-khan/orgs",
+      "repos_url": "https://api.github.com/users/muaz-khan/repos",
+      "events_url": "https://api.github.com/users/muaz-khan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/muaz-khan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "552eb3befe5539966647f8dbaf75ddf17a142c5d",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/552eb3befe5539966647f8dbaf75ddf17a142c5d",
+        "html_url": "https://github.com/muaz-khan/RecordRTC/commit/552eb3befe5539966647f8dbaf75ddf17a142c5d"
+      },
+      {
+        "sha": "b58f0d7555d89b11b76244c91484b45a04c7a4bf",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/b58f0d7555d89b11b76244c91484b45a04c7a4bf",
+        "html_url": "https://github.com/muaz-khan/RecordRTC/commit/b58f0d7555d89b11b76244c91484b45a04c7a4bf"
+      }
+    ]
+  },
+  {
+    "sha": "552eb3befe5539966647f8dbaf75ddf17a142c5d",
+    "node_id": "MDY6Q29tbWl0MjI0MjQxMzM6NTUyZWIzYmVmZTU1Mzk5NjY2NDdmOGRiYWY3NWRkZjE3YTE0MmM1ZA==",
+    "commit": {
+      "author": {
+        "name": "Muaz Khan",
+        "email": "muazkh@gmail.com",
+        "date": "2019-11-25T13:49:31Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2019-11-25T13:49:31Z"
+      },
+      "message": "Merge pull request #569 from pattyland/patch-1\n\nfixed wording",
+      "tree": {
+        "sha": "914ebb7704446a2b9964599866995ad1d984c00f",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/trees/914ebb7704446a2b9964599866995ad1d984c00f"
+      },
+      "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/commits/552eb3befe5539966647f8dbaf75ddf17a142c5d",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJd29vrCRBK7hj4Ov3rIwAAdHIIAJqqH63o6VMVeXzoOoWfDflR\ny8bFncQpd5nwEQghS4m0u3pRM9Id600Iznqh5fMpHWMJbAHLDNFFjejAtaZduSvq\nwTDXxBgndvWcFh8YPat2B8hNUNFPLiZRzbHFVzbrd7OQMNB18s8vH6GlySoY/J7u\nrBdilY5csVmRm8zr936BNPFUzm/hOZMHG4CNPvcG7uyc9OVt4LY8PIiJX2+oCowh\nnM0ZQJxG6cemUQWqOVjCV5TO/3yhzpV2OGO8fk/fnH6OC/MuA7AzSDTo62eYbFOd\nx0dvJHnS4BoJwHlUP/OS+0EHHISGP0XA/hdln17DbjBFVs0bUTYEIehsy55EN0U=\n=mNvd\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 914ebb7704446a2b9964599866995ad1d984c00f\nparent e545e5ea0b6610dce04ecc43dbc192414e44a453\nparent 45e1fd367e3b377c8e9b6b4bfda30c92fed51f47\nauthor Muaz Khan \u003cmuazkh@gmail.com\u003e 1574689771 +0500\ncommitter GitHub \u003cnoreply@github.com\u003e 1574689771 +0500\n\nMerge pull request #569 from pattyland/patch-1\n\nfixed wording"
+      }
+    },
+    "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/552eb3befe5539966647f8dbaf75ddf17a142c5d",
+    "html_url": "https://github.com/muaz-khan/RecordRTC/commit/552eb3befe5539966647f8dbaf75ddf17a142c5d",
+    "comments_url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/552eb3befe5539966647f8dbaf75ddf17a142c5d/comments",
+    "author": {
+      "login": "muaz-khan",
+      "id": 477092,
+      "node_id": "MDQ6VXNlcjQ3NzA5Mg==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/477092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/muaz-khan",
+      "html_url": "https://github.com/muaz-khan",
+      "followers_url": "https://api.github.com/users/muaz-khan/followers",
+      "following_url": "https://api.github.com/users/muaz-khan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/muaz-khan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/muaz-khan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/muaz-khan/subscriptions",
+      "organizations_url": "https://api.github.com/users/muaz-khan/orgs",
+      "repos_url": "https://api.github.com/users/muaz-khan/repos",
+      "events_url": "https://api.github.com/users/muaz-khan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/muaz-khan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e545e5ea0b6610dce04ecc43dbc192414e44a453",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/e545e5ea0b6610dce04ecc43dbc192414e44a453",
+        "html_url": "https://github.com/muaz-khan/RecordRTC/commit/e545e5ea0b6610dce04ecc43dbc192414e44a453"
+      },
+      {
+        "sha": "45e1fd367e3b377c8e9b6b4bfda30c92fed51f47",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/45e1fd367e3b377c8e9b6b4bfda30c92fed51f47",
+        "html_url": "https://github.com/muaz-khan/RecordRTC/commit/45e1fd367e3b377c8e9b6b4bfda30c92fed51f47"
+      }
+    ]
+  },
+  {
+    "sha": "e545e5ea0b6610dce04ecc43dbc192414e44a453",
+    "node_id": "MDY6Q29tbWl0MjI0MjQxMzM6ZTU0NWU1ZWEwYjY2MTBkY2UwNGVjYzQzZGJjMTkyNDE0ZTQ0YTQ1Mw==",
+    "commit": {
+      "author": {
+        "name": "Muaz Khan",
+        "email": "muazkh@gmail.com",
+        "date": "2019-11-17T02:37:20Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2019-11-17T02:37:20Z"
+      },
+      "message": "Merge pull request #577 from MaciejKus/docFix\n\nfix getInternalRecorder documentation",
+      "tree": {
+        "sha": "2a0f6ef5b366ea605834092d984222677c691f42",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/trees/2a0f6ef5b366ea605834092d984222677c691f42"
+      },
+      "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/commits/e545e5ea0b6610dce04ecc43dbc192414e44a453",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJd0LJgCRBK7hj4Ov3rIwAAdHIIAKmqWNSjb7sUZnvSx1G11wJT\nGQlj28ldwS+PQcIM7CmY4USPCXozwNmdO2aA+y+0QPt3q9EZ82woavJnQbE8GZuP\niznq/Y2hLooyAG2A5omvjRnESpAp9JzqC5mOkN4ZBkBz1Im3sy6A02uqfvio6dFT\np8mzom0ztWwcDDLA7r888EytlLw7BTAV0yzavnN2pF2n3h7YUj3S0+KOtGgzXHsg\nu/hNyJSncVID1nJMLurn4vzMK8PB2uEjaTVQ46PLLZZCtmz0efiGga/fqOkLnlrG\nKClVLWoVJi1O0EBKJTavWVAC+fNqLkLbFbLcz8ZPuSXDPiuVKGu5sJalHXykZ1s=\n=92JS\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 2a0f6ef5b366ea605834092d984222677c691f42\nparent f0c2569f1194b561c1bf0ef83d1608d65afc9873\nparent cc025ffad8517d050fb288a898bedbcb7bc199af\nauthor Muaz Khan \u003cmuazkh@gmail.com\u003e 1573958240 +0500\ncommitter GitHub \u003cnoreply@github.com\u003e 1573958240 +0500\n\nMerge pull request #577 from MaciejKus/docFix\n\nfix getInternalRecorder documentation"
+      }
+    },
+    "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/e545e5ea0b6610dce04ecc43dbc192414e44a453",
+    "html_url": "https://github.com/muaz-khan/RecordRTC/commit/e545e5ea0b6610dce04ecc43dbc192414e44a453",
+    "comments_url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/e545e5ea0b6610dce04ecc43dbc192414e44a453/comments",
+    "author": {
+      "login": "muaz-khan",
+      "id": 477092,
+      "node_id": "MDQ6VXNlcjQ3NzA5Mg==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/477092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/muaz-khan",
+      "html_url": "https://github.com/muaz-khan",
+      "followers_url": "https://api.github.com/users/muaz-khan/followers",
+      "following_url": "https://api.github.com/users/muaz-khan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/muaz-khan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/muaz-khan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/muaz-khan/subscriptions",
+      "organizations_url": "https://api.github.com/users/muaz-khan/orgs",
+      "repos_url": "https://api.github.com/users/muaz-khan/repos",
+      "events_url": "https://api.github.com/users/muaz-khan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/muaz-khan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f0c2569f1194b561c1bf0ef83d1608d65afc9873",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/f0c2569f1194b561c1bf0ef83d1608d65afc9873",
+        "html_url": "https://github.com/muaz-khan/RecordRTC/commit/f0c2569f1194b561c1bf0ef83d1608d65afc9873"
+      },
+      {
+        "sha": "cc025ffad8517d050fb288a898bedbcb7bc199af",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/cc025ffad8517d050fb288a898bedbcb7bc199af",
+        "html_url": "https://github.com/muaz-khan/RecordRTC/commit/cc025ffad8517d050fb288a898bedbcb7bc199af"
+      }
+    ]
+  },
+  {
+    "sha": "cc025ffad8517d050fb288a898bedbcb7bc199af",
+    "node_id": "MDY6Q29tbWl0MjI0MjQxMzM6Y2MwMjVmZmFkODUxN2QwNTBmYjI4OGE4OThiZWRiY2I3YmMxOTlhZg==",
+    "commit": {
+      "author": {
+        "name": "Maciej Kus",
+        "email": "mkus@apple.com",
+        "date": "2019-11-14T23:30:15Z"
+      },
+      "committer": {
+        "name": "Maciej Kus",
+        "email": "mkus@apple.com",
+        "date": "2019-11-14T23:30:15Z"
+      },
+      "message": "fix getInternalRecorder documentation",
+      "tree": {
+        "sha": "2a0f6ef5b366ea605834092d984222677c691f42",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/trees/2a0f6ef5b366ea605834092d984222677c691f42"
+      },
+      "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/commits/cc025ffad8517d050fb288a898bedbcb7bc199af",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/cc025ffad8517d050fb288a898bedbcb7bc199af",
+    "html_url": "https://github.com/muaz-khan/RecordRTC/commit/cc025ffad8517d050fb288a898bedbcb7bc199af",
+    "comments_url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/cc025ffad8517d050fb288a898bedbcb7bc199af/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "f0c2569f1194b561c1bf0ef83d1608d65afc9873",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/f0c2569f1194b561c1bf0ef83d1608d65afc9873",
+        "html_url": "https://github.com/muaz-khan/RecordRTC/commit/f0c2569f1194b561c1bf0ef83d1608d65afc9873"
+      }
+    ]
+  },
+  {
+    "sha": "f0c2569f1194b561c1bf0ef83d1608d65afc9873",
+    "node_id": "MDY6Q29tbWl0MjI0MjQxMzM6ZjBjMjU2OWYxMTk0YjU2MWMxYmYwZWY4M2QxNjA4ZDY1YWZjOTg3Mw==",
+    "commit": {
+      "author": {
+        "name": "Muaz Khan",
+        "email": "muazkh@gmail.com",
+        "date": "2019-11-11T11:45:55Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2019-11-11T11:45:55Z"
+      },
+      "message": "Merge pull request #572 from AndreasEhret/gif-recorder-playsInline\n\nadd playsinline video element attribute to prevent build-in controls",
+      "tree": {
+        "sha": "f14529242df47fb6fe601ee8638ad51a91c3de1c",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/trees/f14529242df47fb6fe601ee8638ad51a91c3de1c"
+      },
+      "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/commits/f0c2569f1194b561c1bf0ef83d1608d65afc9873",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJdyUnzCRBK7hj4Ov3rIwAAdHIIALIGvEcgjb6VqHitXwyfaxjM\n5ChFxWdw4YESeB20KjNAeGSGY27I3Iw7GCbnZesNVlsjp31ZEWBXfWApyhclSof4\nzut8akQYzcDSLapp77Y1ocX76PZ41136EhYnQLgPCpPXUyxcA5CX8YzPhFIZIoGn\neVZal+YEX0QxSVOayapK4ax0/VGwOJtnX05hFMYyoRRDf4Ib5B2eFg9NwrRfSL6z\nf3FVNAIrjjUHcaeg6CXswatkOOz0Kq5CFtD3vz2FwUYv3D7Eucz835aaxytE3RmF\n8n9GZte6s3Z6VrOqWQn2BPdci9jifXgyjRp+GUXWSLtbnQNuR4e9XDoq8EqhQLQ=\n=7bFc\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree f14529242df47fb6fe601ee8638ad51a91c3de1c\nparent c69d4d4cee9ae101c007a12e10647864f069baf8\nparent 864a4062a781ff9bb56c8b1edcf8ccb6b32cf8b2\nauthor Muaz Khan \u003cmuazkh@gmail.com\u003e 1573472755 +0500\ncommitter GitHub \u003cnoreply@github.com\u003e 1573472755 +0500\n\nMerge pull request #572 from AndreasEhret/gif-recorder-playsInline\n\nadd playsinline video element attribute to prevent build-in controls"
+      }
+    },
+    "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/f0c2569f1194b561c1bf0ef83d1608d65afc9873",
+    "html_url": "https://github.com/muaz-khan/RecordRTC/commit/f0c2569f1194b561c1bf0ef83d1608d65afc9873",
+    "comments_url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/f0c2569f1194b561c1bf0ef83d1608d65afc9873/comments",
+    "author": {
+      "login": "muaz-khan",
+      "id": 477092,
+      "node_id": "MDQ6VXNlcjQ3NzA5Mg==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/477092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/muaz-khan",
+      "html_url": "https://github.com/muaz-khan",
+      "followers_url": "https://api.github.com/users/muaz-khan/followers",
+      "following_url": "https://api.github.com/users/muaz-khan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/muaz-khan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/muaz-khan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/muaz-khan/subscriptions",
+      "organizations_url": "https://api.github.com/users/muaz-khan/orgs",
+      "repos_url": "https://api.github.com/users/muaz-khan/repos",
+      "events_url": "https://api.github.com/users/muaz-khan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/muaz-khan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c69d4d4cee9ae101c007a12e10647864f069baf8",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/c69d4d4cee9ae101c007a12e10647864f069baf8",
+        "html_url": "https://github.com/muaz-khan/RecordRTC/commit/c69d4d4cee9ae101c007a12e10647864f069baf8"
+      },
+      {
+        "sha": "864a4062a781ff9bb56c8b1edcf8ccb6b32cf8b2",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/864a4062a781ff9bb56c8b1edcf8ccb6b32cf8b2",
+        "html_url": "https://github.com/muaz-khan/RecordRTC/commit/864a4062a781ff9bb56c8b1edcf8ccb6b32cf8b2"
+      }
+    ]
+  },
+  {
+    "sha": "864a4062a781ff9bb56c8b1edcf8ccb6b32cf8b2",
+    "node_id": "MDY6Q29tbWl0MjI0MjQxMzM6ODY0YTQwNjJhNzgxZmY5YmI1NmM4YjFlZGNmOGNjYjZiMzJjZjhiMg==",
+    "commit": {
+      "author": {
+        "name": "AndreasEhret",
+        "email": "andreas.ehret@karakun.com",
+        "date": "2019-11-11T10:15:31Z"
+      },
+      "committer": {
+        "name": "AndreasEhret",
+        "email": "andreas.ehret@karakun.com",
+        "date": "2019-11-11T10:15:31Z"
+      },
+      "message": "fix spelling",
+      "tree": {
+        "sha": "f14529242df47fb6fe601ee8638ad51a91c3de1c",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/trees/f14529242df47fb6fe601ee8638ad51a91c3de1c"
+      },
+      "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/commits/864a4062a781ff9bb56c8b1edcf8ccb6b32cf8b2",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/864a4062a781ff9bb56c8b1edcf8ccb6b32cf8b2",
+    "html_url": "https://github.com/muaz-khan/RecordRTC/commit/864a4062a781ff9bb56c8b1edcf8ccb6b32cf8b2",
+    "comments_url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/864a4062a781ff9bb56c8b1edcf8ccb6b32cf8b2/comments",
+    "author": {
+      "login": "AndreasEhret",
+      "id": 9326167,
+      "node_id": "MDQ6VXNlcjkzMjYxNjc=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9326167?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AndreasEhret",
+      "html_url": "https://github.com/AndreasEhret",
+      "followers_url": "https://api.github.com/users/AndreasEhret/followers",
+      "following_url": "https://api.github.com/users/AndreasEhret/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AndreasEhret/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AndreasEhret/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AndreasEhret/subscriptions",
+      "organizations_url": "https://api.github.com/users/AndreasEhret/orgs",
+      "repos_url": "https://api.github.com/users/AndreasEhret/repos",
+      "events_url": "https://api.github.com/users/AndreasEhret/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AndreasEhret/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "AndreasEhret",
+      "id": 9326167,
+      "node_id": "MDQ6VXNlcjkzMjYxNjc=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9326167?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AndreasEhret",
+      "html_url": "https://github.com/AndreasEhret",
+      "followers_url": "https://api.github.com/users/AndreasEhret/followers",
+      "following_url": "https://api.github.com/users/AndreasEhret/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AndreasEhret/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AndreasEhret/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AndreasEhret/subscriptions",
+      "organizations_url": "https://api.github.com/users/AndreasEhret/orgs",
+      "repos_url": "https://api.github.com/users/AndreasEhret/repos",
+      "events_url": "https://api.github.com/users/AndreasEhret/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AndreasEhret/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e8c400d38bf81af6a629b869cb59a773f19d21ab",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/e8c400d38bf81af6a629b869cb59a773f19d21ab",
+        "html_url": "https://github.com/muaz-khan/RecordRTC/commit/e8c400d38bf81af6a629b869cb59a773f19d21ab"
+      }
+    ]
+  },
+  {
+    "sha": "e8c400d38bf81af6a629b869cb59a773f19d21ab",
+    "node_id": "MDY6Q29tbWl0MjI0MjQxMzM6ZThjNDAwZDM4YmY4MWFmNmE2MjliODY5Y2I1OWE3NzNmMTlkMjFhYg==",
+    "commit": {
+      "author": {
+        "name": "AndreasEhret",
+        "email": "andreas.ehret@karakun.com",
+        "date": "2019-11-10T19:49:30Z"
+      },
+      "committer": {
+        "name": "AndreasEhret",
+        "email": "andreas.ehret@karakun.com",
+        "date": "2019-11-10T19:49:30Z"
+      },
+      "message": "add playsinline to gif recorder to prevent build-in controls",
+      "tree": {
+        "sha": "6d0edb5472a0f976a08a37cdd351f8406ab28e42",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/trees/6d0edb5472a0f976a08a37cdd351f8406ab28e42"
+      },
+      "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/commits/e8c400d38bf81af6a629b869cb59a773f19d21ab",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/e8c400d38bf81af6a629b869cb59a773f19d21ab",
+    "html_url": "https://github.com/muaz-khan/RecordRTC/commit/e8c400d38bf81af6a629b869cb59a773f19d21ab",
+    "comments_url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/e8c400d38bf81af6a629b869cb59a773f19d21ab/comments",
+    "author": {
+      "login": "AndreasEhret",
+      "id": 9326167,
+      "node_id": "MDQ6VXNlcjkzMjYxNjc=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9326167?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AndreasEhret",
+      "html_url": "https://github.com/AndreasEhret",
+      "followers_url": "https://api.github.com/users/AndreasEhret/followers",
+      "following_url": "https://api.github.com/users/AndreasEhret/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AndreasEhret/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AndreasEhret/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AndreasEhret/subscriptions",
+      "organizations_url": "https://api.github.com/users/AndreasEhret/orgs",
+      "repos_url": "https://api.github.com/users/AndreasEhret/repos",
+      "events_url": "https://api.github.com/users/AndreasEhret/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AndreasEhret/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "AndreasEhret",
+      "id": 9326167,
+      "node_id": "MDQ6VXNlcjkzMjYxNjc=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9326167?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AndreasEhret",
+      "html_url": "https://github.com/AndreasEhret",
+      "followers_url": "https://api.github.com/users/AndreasEhret/followers",
+      "following_url": "https://api.github.com/users/AndreasEhret/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AndreasEhret/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AndreasEhret/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AndreasEhret/subscriptions",
+      "organizations_url": "https://api.github.com/users/AndreasEhret/orgs",
+      "repos_url": "https://api.github.com/users/AndreasEhret/repos",
+      "events_url": "https://api.github.com/users/AndreasEhret/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AndreasEhret/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c69d4d4cee9ae101c007a12e10647864f069baf8",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/c69d4d4cee9ae101c007a12e10647864f069baf8",
+        "html_url": "https://github.com/muaz-khan/RecordRTC/commit/c69d4d4cee9ae101c007a12e10647864f069baf8"
+      }
+    ]
+  },
+  {
+    "sha": "45e1fd367e3b377c8e9b6b4bfda30c92fed51f47",
+    "node_id": "MDY6Q29tbWl0MjI0MjQxMzM6NDVlMWZkMzY3ZTNiMzc3YzhlOWI2YjRiZmRhMzBjOTJmZWQ1MWY0Nw==",
+    "commit": {
+      "author": {
+        "name": "Sören",
+        "email": "mail@pattyland.de",
+        "date": "2019-10-30T13:20:50Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2019-10-30T13:20:50Z"
+      },
+      "message": "fixed wording",
+      "tree": {
+        "sha": "62a9f113fc7e1dc9f93808c98951cffc38e30dd3",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/trees/62a9f113fc7e1dc9f93808c98951cffc38e30dd3"
+      },
+      "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/commits/45e1fd367e3b377c8e9b6b4bfda30c92fed51f47",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJduY4zCRBK7hj4Ov3rIwAAdHIIAFlUgb1xdlK73i4Ox3rsqSxR\ns/714+0gVQz4WDnvMjkOBRtgQ4qgLlRNqMsIKutU40UEcAPaSBtLFzERUZc55MM6\nWj1kBF6ozYdvlyo3UJiH4LP9rO3KkqVklbokWsJgfW77tfxiD7FG93QjNFbFBwvc\nwR97pjTPYcnWhNTKkx8+Vjpex3UycUPNS40Tjp95wHgTj7xyjvK+8HOSBlfGZnwC\nLPyTejWy2ujJ/To7Awz+4UX7fnxBB6Uwjc+ACmmjkEkxCyiB8g7vmoERESjLZw1D\nVJ4FISzP2eV5VBNddJ8YhMel2Mh3dI/y0Cp/WiC57GKX93xE56lFlDPLfIXxgBs=\n=6eYs\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 62a9f113fc7e1dc9f93808c98951cffc38e30dd3\nparent c69d4d4cee9ae101c007a12e10647864f069baf8\nauthor Sören \u003cmail@pattyland.de\u003e 1572441650 +0100\ncommitter GitHub \u003cnoreply@github.com\u003e 1572441650 +0100\n\nfixed wording"
+      }
+    },
+    "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/45e1fd367e3b377c8e9b6b4bfda30c92fed51f47",
+    "html_url": "https://github.com/muaz-khan/RecordRTC/commit/45e1fd367e3b377c8e9b6b4bfda30c92fed51f47",
+    "comments_url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/45e1fd367e3b377c8e9b6b4bfda30c92fed51f47/comments",
+    "author": {
+      "login": "pattyland",
+      "id": 838758,
+      "node_id": "MDQ6VXNlcjgzODc1OA==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/838758?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pattyland",
+      "html_url": "https://github.com/pattyland",
+      "followers_url": "https://api.github.com/users/pattyland/followers",
+      "following_url": "https://api.github.com/users/pattyland/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pattyland/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pattyland/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pattyland/subscriptions",
+      "organizations_url": "https://api.github.com/users/pattyland/orgs",
+      "repos_url": "https://api.github.com/users/pattyland/repos",
+      "events_url": "https://api.github.com/users/pattyland/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pattyland/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c69d4d4cee9ae101c007a12e10647864f069baf8",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/c69d4d4cee9ae101c007a12e10647864f069baf8",
+        "html_url": "https://github.com/muaz-khan/RecordRTC/commit/c69d4d4cee9ae101c007a12e10647864f069baf8"
+      }
+    ]
+  },
+  {
+    "sha": "c69d4d4cee9ae101c007a12e10647864f069baf8",
+    "node_id": "MDY6Q29tbWl0MjI0MjQxMzM6YzY5ZDRkNGNlZTlhZTEwMWMwMDdhMTJlMTA2NDc4NjRmMDY5YmFmOA==",
+    "commit": {
+      "author": {
+        "name": "Muaz Khan",
+        "email": "muazkh@gmail.com",
+        "date": "2019-06-24T07:58:48Z"
+      },
+      "committer": {
+        "name": "Muaz Khan",
+        "email": "muazkh@gmail.com",
+        "date": "2019-06-24T07:58:48Z"
+      },
+      "message": "Tiny update",
+      "tree": {
+        "sha": "569c20965dd65b348aeddb774566b54d8cc0b605",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/trees/569c20965dd65b348aeddb774566b54d8cc0b605"
+      },
+      "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/commits/c69d4d4cee9ae101c007a12e10647864f069baf8",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/c69d4d4cee9ae101c007a12e10647864f069baf8",
+    "html_url": "https://github.com/muaz-khan/RecordRTC/commit/c69d4d4cee9ae101c007a12e10647864f069baf8",
+    "comments_url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/c69d4d4cee9ae101c007a12e10647864f069baf8/comments",
+    "author": {
+      "login": "muaz-khan",
+      "id": 477092,
+      "node_id": "MDQ6VXNlcjQ3NzA5Mg==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/477092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/muaz-khan",
+      "html_url": "https://github.com/muaz-khan",
+      "followers_url": "https://api.github.com/users/muaz-khan/followers",
+      "following_url": "https://api.github.com/users/muaz-khan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/muaz-khan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/muaz-khan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/muaz-khan/subscriptions",
+      "organizations_url": "https://api.github.com/users/muaz-khan/orgs",
+      "repos_url": "https://api.github.com/users/muaz-khan/repos",
+      "events_url": "https://api.github.com/users/muaz-khan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/muaz-khan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "muaz-khan",
+      "id": 477092,
+      "node_id": "MDQ6VXNlcjQ3NzA5Mg==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/477092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/muaz-khan",
+      "html_url": "https://github.com/muaz-khan",
+      "followers_url": "https://api.github.com/users/muaz-khan/followers",
+      "following_url": "https://api.github.com/users/muaz-khan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/muaz-khan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/muaz-khan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/muaz-khan/subscriptions",
+      "organizations_url": "https://api.github.com/users/muaz-khan/orgs",
+      "repos_url": "https://api.github.com/users/muaz-khan/repos",
+      "events_url": "https://api.github.com/users/muaz-khan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/muaz-khan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "06c3d158a0b6dfc4b12679b951a43c4d80f180aa",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/06c3d158a0b6dfc4b12679b951a43c4d80f180aa",
+        "html_url": "https://github.com/muaz-khan/RecordRTC/commit/06c3d158a0b6dfc4b12679b951a43c4d80f180aa"
+      }
+    ]
+  },
+  {
+    "sha": "06c3d158a0b6dfc4b12679b951a43c4d80f180aa",
+    "node_id": "MDY6Q29tbWl0MjI0MjQxMzM6MDZjM2QxNThhMGI2ZGZjNGIxMjY3OWI5NTFhNDNjNGQ4MGYxODBhYQ==",
+    "commit": {
+      "author": {
+        "name": "Muaz Khan",
+        "email": "muazkh@gmail.com",
+        "date": "2019-06-21T04:37:12Z"
+      },
+      "committer": {
+        "name": "Muaz Khan",
+        "email": "muazkh@gmail.com",
+        "date": "2019-06-21T04:37:12Z"
+      },
+      "message": "recordrtc@5.5.8 - RecordRTCPromisesHandler now supports more functions.",
+      "tree": {
+        "sha": "6a627865067d7587152d0ebc3f30c3926240704e",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/trees/6a627865067d7587152d0ebc3f30c3926240704e"
+      },
+      "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/commits/06c3d158a0b6dfc4b12679b951a43c4d80f180aa",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/06c3d158a0b6dfc4b12679b951a43c4d80f180aa",
+    "html_url": "https://github.com/muaz-khan/RecordRTC/commit/06c3d158a0b6dfc4b12679b951a43c4d80f180aa",
+    "comments_url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/06c3d158a0b6dfc4b12679b951a43c4d80f180aa/comments",
+    "author": {
+      "login": "muaz-khan",
+      "id": 477092,
+      "node_id": "MDQ6VXNlcjQ3NzA5Mg==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/477092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/muaz-khan",
+      "html_url": "https://github.com/muaz-khan",
+      "followers_url": "https://api.github.com/users/muaz-khan/followers",
+      "following_url": "https://api.github.com/users/muaz-khan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/muaz-khan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/muaz-khan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/muaz-khan/subscriptions",
+      "organizations_url": "https://api.github.com/users/muaz-khan/orgs",
+      "repos_url": "https://api.github.com/users/muaz-khan/repos",
+      "events_url": "https://api.github.com/users/muaz-khan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/muaz-khan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "muaz-khan",
+      "id": 477092,
+      "node_id": "MDQ6VXNlcjQ3NzA5Mg==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/477092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/muaz-khan",
+      "html_url": "https://github.com/muaz-khan",
+      "followers_url": "https://api.github.com/users/muaz-khan/followers",
+      "following_url": "https://api.github.com/users/muaz-khan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/muaz-khan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/muaz-khan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/muaz-khan/subscriptions",
+      "organizations_url": "https://api.github.com/users/muaz-khan/orgs",
+      "repos_url": "https://api.github.com/users/muaz-khan/repos",
+      "events_url": "https://api.github.com/users/muaz-khan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/muaz-khan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7621f38c9706bfce7eac6758feae2dd7e737e022",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/7621f38c9706bfce7eac6758feae2dd7e737e022",
+        "html_url": "https://github.com/muaz-khan/RecordRTC/commit/7621f38c9706bfce7eac6758feae2dd7e737e022"
+      }
+    ]
+  },
+  {
+    "sha": "7621f38c9706bfce7eac6758feae2dd7e737e022",
+    "node_id": "MDY6Q29tbWl0MjI0MjQxMzM6NzYyMWYzOGM5NzA2YmZjZTdlYWM2NzU4ZmVhZTJkZDdlNzM3ZTAyMg==",
+    "commit": {
+      "author": {
+        "name": "Muaz Khan",
+        "email": "muazkh@gmail.com",
+        "date": "2019-06-18T03:22:34Z"
+      },
+      "committer": {
+        "name": "Muaz Khan",
+        "email": "muazkh@gmail.com",
+        "date": "2019-06-18T03:22:34Z"
+      },
+      "message": "Fixed #532 Added recordrtc@5.5.7",
+      "tree": {
+        "sha": "7eaa5345e2614956b9824c4f175ecfb95397b497",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/trees/7eaa5345e2614956b9824c4f175ecfb95397b497"
+      },
+      "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/commits/7621f38c9706bfce7eac6758feae2dd7e737e022",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/7621f38c9706bfce7eac6758feae2dd7e737e022",
+    "html_url": "https://github.com/muaz-khan/RecordRTC/commit/7621f38c9706bfce7eac6758feae2dd7e737e022",
+    "comments_url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/7621f38c9706bfce7eac6758feae2dd7e737e022/comments",
+    "author": {
+      "login": "muaz-khan",
+      "id": 477092,
+      "node_id": "MDQ6VXNlcjQ3NzA5Mg==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/477092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/muaz-khan",
+      "html_url": "https://github.com/muaz-khan",
+      "followers_url": "https://api.github.com/users/muaz-khan/followers",
+      "following_url": "https://api.github.com/users/muaz-khan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/muaz-khan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/muaz-khan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/muaz-khan/subscriptions",
+      "organizations_url": "https://api.github.com/users/muaz-khan/orgs",
+      "repos_url": "https://api.github.com/users/muaz-khan/repos",
+      "events_url": "https://api.github.com/users/muaz-khan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/muaz-khan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "muaz-khan",
+      "id": 477092,
+      "node_id": "MDQ6VXNlcjQ3NzA5Mg==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/477092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/muaz-khan",
+      "html_url": "https://github.com/muaz-khan",
+      "followers_url": "https://api.github.com/users/muaz-khan/followers",
+      "following_url": "https://api.github.com/users/muaz-khan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/muaz-khan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/muaz-khan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/muaz-khan/subscriptions",
+      "organizations_url": "https://api.github.com/users/muaz-khan/orgs",
+      "repos_url": "https://api.github.com/users/muaz-khan/repos",
+      "events_url": "https://api.github.com/users/muaz-khan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/muaz-khan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5b8d164103bf242d1fc3d79e26d50a3c4f9144a8",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/5b8d164103bf242d1fc3d79e26d50a3c4f9144a8",
+        "html_url": "https://github.com/muaz-khan/RecordRTC/commit/5b8d164103bf242d1fc3d79e26d50a3c4f9144a8"
+      }
+    ]
+  },
+  {
+    "sha": "5b8d164103bf242d1fc3d79e26d50a3c4f9144a8",
+    "node_id": "MDY6Q29tbWl0MjI0MjQxMzM6NWI4ZDE2NDEwM2JmMjQyZDFmYzNkNzllMjZkNTBhM2M0ZjkxNDRhOA==",
+    "commit": {
+      "author": {
+        "name": "Muaz Khan",
+        "email": "muazkh@gmail.com",
+        "date": "2019-06-17T12:55:36Z"
+      },
+      "committer": {
+        "name": "Muaz Khan",
+        "email": "muazkh@gmail.com",
+        "date": "2019-06-17T12:55:36Z"
+      },
+      "message": "hmm!",
+      "tree": {
+        "sha": "708cac4ea3eb86108cf123c8431a02acb336d4b4",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/trees/708cac4ea3eb86108cf123c8431a02acb336d4b4"
+      },
+      "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/commits/5b8d164103bf242d1fc3d79e26d50a3c4f9144a8",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/5b8d164103bf242d1fc3d79e26d50a3c4f9144a8",
+    "html_url": "https://github.com/muaz-khan/RecordRTC/commit/5b8d164103bf242d1fc3d79e26d50a3c4f9144a8",
+    "comments_url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/5b8d164103bf242d1fc3d79e26d50a3c4f9144a8/comments",
+    "author": {
+      "login": "muaz-khan",
+      "id": 477092,
+      "node_id": "MDQ6VXNlcjQ3NzA5Mg==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/477092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/muaz-khan",
+      "html_url": "https://github.com/muaz-khan",
+      "followers_url": "https://api.github.com/users/muaz-khan/followers",
+      "following_url": "https://api.github.com/users/muaz-khan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/muaz-khan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/muaz-khan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/muaz-khan/subscriptions",
+      "organizations_url": "https://api.github.com/users/muaz-khan/orgs",
+      "repos_url": "https://api.github.com/users/muaz-khan/repos",
+      "events_url": "https://api.github.com/users/muaz-khan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/muaz-khan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "muaz-khan",
+      "id": 477092,
+      "node_id": "MDQ6VXNlcjQ3NzA5Mg==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/477092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/muaz-khan",
+      "html_url": "https://github.com/muaz-khan",
+      "followers_url": "https://api.github.com/users/muaz-khan/followers",
+      "following_url": "https://api.github.com/users/muaz-khan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/muaz-khan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/muaz-khan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/muaz-khan/subscriptions",
+      "organizations_url": "https://api.github.com/users/muaz-khan/orgs",
+      "repos_url": "https://api.github.com/users/muaz-khan/repos",
+      "events_url": "https://api.github.com/users/muaz-khan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/muaz-khan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e8d35b13f3058dda49e9b9fdebcedfb515e7f3ed",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/e8d35b13f3058dda49e9b9fdebcedfb515e7f3ed",
+        "html_url": "https://github.com/muaz-khan/RecordRTC/commit/e8d35b13f3058dda49e9b9fdebcedfb515e7f3ed"
+      }
+    ]
+  },
+  {
+    "sha": "e8d35b13f3058dda49e9b9fdebcedfb515e7f3ed",
+    "node_id": "MDY6Q29tbWl0MjI0MjQxMzM6ZThkMzViMTNmMzA1OGRkYTQ5ZTliOWZkZWJjZWRmYjUxNWU3ZjNlZA==",
+    "commit": {
+      "author": {
+        "name": "Muaz Khan",
+        "email": "muazkh@gmail.com",
+        "date": "2019-06-15T01:23:57Z"
+      },
+      "committer": {
+        "name": "Muaz Khan",
+        "email": "muazkh@gmail.com",
+        "date": "2019-06-15T01:23:57Z"
+      },
+      "message": "Fixed #530 - Now you can pass \"elementClass\" parameter.\n\nlet recorder = RecordRTC([streams], {\n   type: 'video',\n   elementClass: 'your-custom-class'\n});\n\nNow you can access \u003ccanvas\u003e element anytime using this:\n\ndocument.querySelector('.your-custom-class').style.opacity = 0;",
+      "tree": {
+        "sha": "9e6cece3e9b6a0a4762cb8d71881eda76907fe6d",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/trees/9e6cece3e9b6a0a4762cb8d71881eda76907fe6d"
+      },
+      "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/commits/e8d35b13f3058dda49e9b9fdebcedfb515e7f3ed",
+      "comment_count": 2,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/e8d35b13f3058dda49e9b9fdebcedfb515e7f3ed",
+    "html_url": "https://github.com/muaz-khan/RecordRTC/commit/e8d35b13f3058dda49e9b9fdebcedfb515e7f3ed",
+    "comments_url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/e8d35b13f3058dda49e9b9fdebcedfb515e7f3ed/comments",
+    "author": {
+      "login": "muaz-khan",
+      "id": 477092,
+      "node_id": "MDQ6VXNlcjQ3NzA5Mg==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/477092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/muaz-khan",
+      "html_url": "https://github.com/muaz-khan",
+      "followers_url": "https://api.github.com/users/muaz-khan/followers",
+      "following_url": "https://api.github.com/users/muaz-khan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/muaz-khan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/muaz-khan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/muaz-khan/subscriptions",
+      "organizations_url": "https://api.github.com/users/muaz-khan/orgs",
+      "repos_url": "https://api.github.com/users/muaz-khan/repos",
+      "events_url": "https://api.github.com/users/muaz-khan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/muaz-khan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "muaz-khan",
+      "id": 477092,
+      "node_id": "MDQ6VXNlcjQ3NzA5Mg==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/477092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/muaz-khan",
+      "html_url": "https://github.com/muaz-khan",
+      "followers_url": "https://api.github.com/users/muaz-khan/followers",
+      "following_url": "https://api.github.com/users/muaz-khan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/muaz-khan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/muaz-khan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/muaz-khan/subscriptions",
+      "organizations_url": "https://api.github.com/users/muaz-khan/orgs",
+      "repos_url": "https://api.github.com/users/muaz-khan/repos",
+      "events_url": "https://api.github.com/users/muaz-khan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/muaz-khan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "65df2b55b54a355716349d6754db0a4c0a45ee9e",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/65df2b55b54a355716349d6754db0a4c0a45ee9e",
+        "html_url": "https://github.com/muaz-khan/RecordRTC/commit/65df2b55b54a355716349d6754db0a4c0a45ee9e"
+      }
+    ]
+  },
+  {
+    "sha": "65df2b55b54a355716349d6754db0a4c0a45ee9e",
+    "node_id": "MDY6Q29tbWl0MjI0MjQxMzM6NjVkZjJiNTViNTRhMzU1NzE2MzQ5ZDY3NTRkYjBhNGMwYTQ1ZWU5ZQ==",
+    "commit": {
+      "author": {
+        "name": "Muaz Khan",
+        "email": "muazkh@gmail.com",
+        "date": "2019-06-13T02:30:49Z"
+      },
+      "committer": {
+        "name": "Muaz Khan",
+        "email": "muazkh@gmail.com",
+        "date": "2019-06-13T02:30:49Z"
+      },
+      "message": "Update README.md",
+      "tree": {
+        "sha": "1b0b85d105572b44919b3324fdc868fd00a2a6c5",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/trees/1b0b85d105572b44919b3324fdc868fd00a2a6c5"
+      },
+      "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/commits/65df2b55b54a355716349d6754db0a4c0a45ee9e",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/65df2b55b54a355716349d6754db0a4c0a45ee9e",
+    "html_url": "https://github.com/muaz-khan/RecordRTC/commit/65df2b55b54a355716349d6754db0a4c0a45ee9e",
+    "comments_url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/65df2b55b54a355716349d6754db0a4c0a45ee9e/comments",
+    "author": {
+      "login": "muaz-khan",
+      "id": 477092,
+      "node_id": "MDQ6VXNlcjQ3NzA5Mg==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/477092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/muaz-khan",
+      "html_url": "https://github.com/muaz-khan",
+      "followers_url": "https://api.github.com/users/muaz-khan/followers",
+      "following_url": "https://api.github.com/users/muaz-khan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/muaz-khan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/muaz-khan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/muaz-khan/subscriptions",
+      "organizations_url": "https://api.github.com/users/muaz-khan/orgs",
+      "repos_url": "https://api.github.com/users/muaz-khan/repos",
+      "events_url": "https://api.github.com/users/muaz-khan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/muaz-khan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "muaz-khan",
+      "id": 477092,
+      "node_id": "MDQ6VXNlcjQ3NzA5Mg==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/477092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/muaz-khan",
+      "html_url": "https://github.com/muaz-khan",
+      "followers_url": "https://api.github.com/users/muaz-khan/followers",
+      "following_url": "https://api.github.com/users/muaz-khan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/muaz-khan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/muaz-khan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/muaz-khan/subscriptions",
+      "organizations_url": "https://api.github.com/users/muaz-khan/orgs",
+      "repos_url": "https://api.github.com/users/muaz-khan/repos",
+      "events_url": "https://api.github.com/users/muaz-khan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/muaz-khan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1c8321633f3048067ce0fbb0b26842f7f84684b2",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/1c8321633f3048067ce0fbb0b26842f7f84684b2",
+        "html_url": "https://github.com/muaz-khan/RecordRTC/commit/1c8321633f3048067ce0fbb0b26842f7f84684b2"
+      }
+    ]
+  },
+  {
+    "sha": "1c8321633f3048067ce0fbb0b26842f7f84684b2",
+    "node_id": "MDY6Q29tbWl0MjI0MjQxMzM6MWM4MzIxNjMzZjMwNDgwNjdjZTBmYmIwYjI2ODQyZjdmODQ2ODRiMg==",
+    "commit": {
+      "author": {
+        "name": "Muaz Khan",
+        "email": "muazkh@gmail.com",
+        "date": "2019-06-13T02:22:11Z"
+      },
+      "committer": {
+        "name": "Muaz Khan",
+        "email": "muazkh@gmail.com",
+        "date": "2019-06-13T02:22:11Z"
+      },
+      "message": "Fixed #529 use this: require('recordrtc').getSeekableBlob;\n\nlet RecordRTC = require('recordrtc');\nRecordRTC.getSeekableBlob(originalBlob, callback);",
+      "tree": {
+        "sha": "7750fd6f58df5f266e2098d17bd39d7ff6c864f3",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/trees/7750fd6f58df5f266e2098d17bd39d7ff6c864f3"
+      },
+      "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/commits/1c8321633f3048067ce0fbb0b26842f7f84684b2",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/1c8321633f3048067ce0fbb0b26842f7f84684b2",
+    "html_url": "https://github.com/muaz-khan/RecordRTC/commit/1c8321633f3048067ce0fbb0b26842f7f84684b2",
+    "comments_url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/1c8321633f3048067ce0fbb0b26842f7f84684b2/comments",
+    "author": {
+      "login": "muaz-khan",
+      "id": 477092,
+      "node_id": "MDQ6VXNlcjQ3NzA5Mg==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/477092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/muaz-khan",
+      "html_url": "https://github.com/muaz-khan",
+      "followers_url": "https://api.github.com/users/muaz-khan/followers",
+      "following_url": "https://api.github.com/users/muaz-khan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/muaz-khan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/muaz-khan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/muaz-khan/subscriptions",
+      "organizations_url": "https://api.github.com/users/muaz-khan/orgs",
+      "repos_url": "https://api.github.com/users/muaz-khan/repos",
+      "events_url": "https://api.github.com/users/muaz-khan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/muaz-khan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "muaz-khan",
+      "id": 477092,
+      "node_id": "MDQ6VXNlcjQ3NzA5Mg==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/477092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/muaz-khan",
+      "html_url": "https://github.com/muaz-khan",
+      "followers_url": "https://api.github.com/users/muaz-khan/followers",
+      "following_url": "https://api.github.com/users/muaz-khan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/muaz-khan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/muaz-khan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/muaz-khan/subscriptions",
+      "organizations_url": "https://api.github.com/users/muaz-khan/orgs",
+      "repos_url": "https://api.github.com/users/muaz-khan/repos",
+      "events_url": "https://api.github.com/users/muaz-khan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/muaz-khan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "528e165480ee1a7bb76fe1c29d369f2083a45a80",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/528e165480ee1a7bb76fe1c29d369f2083a45a80",
+        "html_url": "https://github.com/muaz-khan/RecordRTC/commit/528e165480ee1a7bb76fe1c29d369f2083a45a80"
+      }
+    ]
+  },
+  {
+    "sha": "528e165480ee1a7bb76fe1c29d369f2083a45a80",
+    "node_id": "MDY6Q29tbWl0MjI0MjQxMzM6NTI4ZTE2NTQ4MGVlMWE3YmI3NmZlMWMyOWQzNjlmMjA4M2E0NWE4MA==",
+    "commit": {
+      "author": {
+        "name": "Muaz Khan",
+        "email": "muazkh@gmail.com",
+        "date": "2019-05-27T02:49:07Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2019-05-27T02:49:07Z"
+      },
+      "message": "Merge pull request #507 from alienpavlov/patch-1\n\ntypos fixed in README.MD",
+      "tree": {
+        "sha": "0abe0e3bf57620af214dd7b61cfd452382b65516",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/trees/0abe0e3bf57620af214dd7b61cfd452382b65516"
+      },
+      "url": "https://api.github.com/repos/muaz-khan/RecordRTC/git/commits/528e165480ee1a7bb76fe1c29d369f2083a45a80",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJc61AjCRBK7hj4Ov3rIwAAdHIIAIa6XRhJy1ptDMSOIp4MNvBM\nvOl2YtmZ0TpHW9V4a+gdAJIwW4sEfh4W46sOHpMT9pcUkLmWZmo8y+u3vP7DTXJ8\nXwieFws+MjAkj8MgNokjI5aOdy/ak0q2Xn4dihTMohtXVwVFeiqGCN3Ke+Fz6haG\nPuYdilh+p9LX9apdQSX/riMSqdkOZk6bn+BolSigpDMluuLNASBuP4TkiW8D6OUM\n/wrSI7JsZqVdOtTGSn/1QCCeXETYyvPlQEAtSvJj+WKMhg0kLGIdrQmTPNsQAl/o\njUI3nHXalc51fFtllNse+AFfy8HxQ0iljsEANfgaYTFQQwUbP6JvjWXLLP+KTxc=\n=K67k\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 0abe0e3bf57620af214dd7b61cfd452382b65516\nparent 3633aaf939b3cb6e1d7dcf0a18423b59acbcce48\nparent 541f4d1b566917f6ce27db8860effa6549aa0baf\nauthor Muaz Khan \u003cmuazkh@gmail.com\u003e 1558925347 +0500\ncommitter GitHub \u003cnoreply@github.com\u003e 1558925347 +0500\n\nMerge pull request #507 from alienpavlov/patch-1\n\ntypos fixed in README.MD"
+      }
+    },
+    "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/528e165480ee1a7bb76fe1c29d369f2083a45a80",
+    "html_url": "https://github.com/muaz-khan/RecordRTC/commit/528e165480ee1a7bb76fe1c29d369f2083a45a80",
+    "comments_url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/528e165480ee1a7bb76fe1c29d369f2083a45a80/comments",
+    "author": {
+      "login": "muaz-khan",
+      "id": 477092,
+      "node_id": "MDQ6VXNlcjQ3NzA5Mg==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/477092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/muaz-khan",
+      "html_url": "https://github.com/muaz-khan",
+      "followers_url": "https://api.github.com/users/muaz-khan/followers",
+      "following_url": "https://api.github.com/users/muaz-khan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/muaz-khan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/muaz-khan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/muaz-khan/subscriptions",
+      "organizations_url": "https://api.github.com/users/muaz-khan/orgs",
+      "repos_url": "https://api.github.com/users/muaz-khan/repos",
+      "events_url": "https://api.github.com/users/muaz-khan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/muaz-khan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3633aaf939b3cb6e1d7dcf0a18423b59acbcce48",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/3633aaf939b3cb6e1d7dcf0a18423b59acbcce48",
+        "html_url": "https://github.com/muaz-khan/RecordRTC/commit/3633aaf939b3cb6e1d7dcf0a18423b59acbcce48"
+      },
+      {
+        "sha": "541f4d1b566917f6ce27db8860effa6549aa0baf",
+        "url": "https://api.github.com/repos/muaz-khan/RecordRTC/commits/541f4d1b566917f6ce27db8860effa6549aa0baf",
+        "html_url": "https://github.com/muaz-khan/RecordRTC/commit/541f4d1b566917f6ce27db8860effa6549aa0baf"
+      }
+    ]
+  }
+]})

@@ -1,0 +1,26 @@
+@foreach($queue as $data)
+<tr>
+    <th class="q_number">{{$q_number}}</th>
+    <td class="q_hn">{{$q_hn}}</td>
+    <td class="q_status">{{$q_statustext}}</button></td>
+    <td><button class="btn btn-success ready" style="{{$style}}" call_id="{{$q_id}}">พร้อมกลับ</button></td>
+</tr>
+@endforeach
+
+<script>
+    $(".ready").click(function(){
+        var q_id = $(this).attr('call_id')
+        $.post("queue",{
+            event   : "queue_next",
+            q_id    : q_id,
+        },function(data, status){
+            socket.emit('queue','refreshdata');
+        });
+    });
+
+
+    // $(".queuecall").click(function(){
+    //     var queueNUMBER = $(this).attr('queuenumber');
+    //     QueueCALL(queueNUMBER);
+    // });
+</script>

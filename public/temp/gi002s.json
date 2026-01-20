@@ -1,0 +1,362 @@
+{
+    "code": "gi002s",
+    "name": "Colonoscopy",
+    "img": "Colonoscopy.jpg",
+    "color": "#ff6f00",
+    "startcase":{
+        "indication":["CRC screening"]
+    },
+    "case": [
+        "screening_prediagnostic",
+        "photo",
+        "finding",
+        "diagnostic",
+        "post_procedure_icd9",
+        "screening_histopathology",
+        "officer"
+    ],
+    "pdf": {
+        "head": {
+            "departmentTH": "หน่วยส่องกล้องทางเดินอาหาร",
+            "departmentEN": "Digestive Endoscopy Department",
+            "documentname": "Digestive Endoscopy Report",
+            "physician": "ENDOSCOPIST",
+            "nurse": "ENDOSCOPY NURSE"
+        },
+        "show": [
+            "9001_time_patientin",
+            "9002_time_operation",
+            "9003_time_withdrawal",
+            "0037_roomoperation",
+            "0036_scope",
+            "0001_BRIEF_HISTORY",
+            "0002_INDICATION",
+            "0003_ANESTHESIA",
+            "0004_MEDICATION",
+            "0005_PRE-DIAGNOSTIC",
+            "0019_BOWEL_PREPARATION",
+            "0010_FINDINGS",
+            "0011_POST-DIAGNOSTIC",
+            "0012_PROCEDURE_ICD9",
+            "0016_HISTOPATHOLOGY",
+            "0017_TISSUESUBMITTED",
+            "0014_COMPLICATION",
+            "0032_ESTIMATED_BLOOD_LOSS",
+            "0021_COMMENTS"
+        ]
+    },
+    "anesthesia": [
+        "Topical",
+        "IV sedation",
+        "ET intubation",
+        "Tracheostomy",
+        "MAC",
+        "TIVA"
+    ],
+    "anesthesis": [
+        {
+            "name": "Buscopan",
+            "unit": "mg."
+        },
+        {
+            "name": "Propofol",
+            "unit": "mg."
+        },
+        {
+            "name": "Dormicum",
+            "unit": "mg."
+        },
+        {
+            "name": "Pethidine",
+            "unit": "mg."
+        },
+        {
+            "name": "Diazepam",
+            "unit": "mg."
+        },
+        {
+            "name": "Fentanyl",
+            "unit": "mcg."
+        }
+    ],
+    "histopathology": [
+        "Biopsy",
+        "Hot biopsy",
+        "Polypectomy",
+        "Flow Anesthsia"
+    ],
+    "icd9": {
+        "Colonoscopy": [
+            {
+                "name": "Colonoscopy",
+                "code": "45433",
+                "unit": null,
+                "status": "show",
+                "bill": " ",
+                "price": "4000"
+            }
+        ],
+        "Biopsy": [
+            {
+                "name": "Biopsy",
+                "code": "45432",
+                "unit": "pcs.",
+                "status": "show",
+                "bill": " ",
+                "price": "4000",
+                "extra": "1",
+                "extra_text": " pcs."
+            }
+        ],
+        "Polypectomy": [
+            {
+                "name": "Polypectomy",
+                "code": "45432",
+                "unit": "pcs.",
+                "status": "show",
+                "bill": " ",
+                "price": "4000",
+                "extra": "1",
+                "extra_text": " pcs."
+            }
+        ],
+        "EMR": [
+            {
+                "name": "EMR",
+                "code": "4836",
+                "unit": null,
+                "status": "show",
+                "bill": " ",
+                "price": "4000"
+            }
+        ],
+        "Adrenalin Injection": [
+            {
+                "name": "Adrenalin injection",
+                "code": "4543",
+                "unit": "ml.",
+                "status": "show",
+                "bill": " ",
+                "price": "6700",
+                "extra": "1",
+                "extra_text": "ml."
+            }
+        ],
+        "Coagulation": [
+            {
+                "name": "Coagulation",
+                "code": "45431",
+                "unit": null,
+                "status": "show",
+                "bill": " ",
+                "price": "6700"
+            }
+        ],
+        "Hemoclip": [
+            {
+                "name": "Hemoclip",
+                "code": "45432",
+                "unit": "pcs.",
+                "status": "show",
+                "bill": " ",
+                "price": "4000",
+                "extra": "1",
+                "extra_text": " pcs."
+            }
+        ],
+        "APC": [
+            {
+                "name": " APC",
+                "code": "45433",
+                "unit": null,
+                "status": "show",
+                "bill": " ",
+                "price": "4000"
+            }
+        ],
+        "Glue injection": [
+            {
+                "name": "Glue injection",
+                "code": "45434",
+                "unit": "pcs.",
+                "status": "show",
+                "bill": " ",
+                "price": "4000",
+                "extra": "1",
+                "extra_text": " ml."
+            }
+        ],
+        "FB removal": [
+            {
+                "name": "FB removal (Colon)",
+                "code": "9804",
+                "unit": null,
+                "status": "show",
+                "bill": " ",
+                "price": "4000"
+            },
+            {
+                "name": "FB removal (Rectum and Anus)",
+                "code": "9804",
+                "unit": null,
+                "status": "show",
+                "bill": " ",
+                "price": "4000"
+            }
+        ],
+        "Dilation": [
+            {
+                "name": "Dilation (Duodenum)",
+                "code": "4685",
+                "unit": null,
+                "status": "show",
+                "bill": " ",
+                "price": "4000"
+            },
+            {
+                "name": "Dilation (Large intestine)",
+                "code": "4685",
+                "unit": null,
+                "status": "show",
+                "bill": " ",
+                "price": "4000"
+            }
+        ],
+        "Stenting": [
+            {
+                "name": "Stenting",
+                "code": "45423",
+                "unit": null,
+                "status": "show",
+                "bill": " ",
+                "price": "1000"
+            }
+        ],
+        "Fecal impact irrigation": [
+            {
+                "name": "Fecal impact irrigation",
+                "code": "9638",
+                "unit": null,
+                "status": "show",
+                "bill": " ",
+                "price": "4000"
+            }
+        ],
+        "Banding ligation": [
+            {
+                "name": "Banding ligation",
+                "code": "4543",
+                "unit": "ml.",
+                "status": "show",
+                "bill": " ",
+                "price": "6700",
+                "extra": "1",
+                "extra_text": "pcs."
+            }
+        ],
+        "ESD": [
+            {
+                "name": "ESD",
+                "code": "45423",
+                "unit": null,
+                "status": "show",
+                "bill": " ",
+                "price": "1000"
+            }
+        ],
+        "Aethoxyskleroi injection": [
+            {
+                "name": "Aethoxyskleroi injection",
+                "code": "4686",
+                "unit": null,
+                "status": "show",
+                "bill": " ",
+                "price": "4000"
+            }
+        ]
+    },
+    "icd10": {
+        "Cecum": [
+            {
+                "name": "CA Cecum",
+                "code": "C180"
+            }
+        ],
+        "Colon": [
+            {
+                "name": "Diverticulitis/Diverticulosis/Diverticulum",
+                "code": "K573"
+            },
+            {
+                "name": "CA colon",
+                "code": "C189"
+            },
+            {
+                "name": "Colonic polyp",
+                "code": "K635"
+            }
+        ],
+        "Rectum": [
+            {
+                "name": "Rectal polyp",
+                "code": "K621"
+            },
+            {
+                "name": "Rectal ulcer",
+                "code": "K626"
+            },
+            {
+                "name": "CA Rectum",
+                "code": "C20"
+            },
+            {
+                "name": "Hemorrhagic rectal ulcer",
+                "code": "K625"
+            }
+        ],
+        "Anus": [
+            {
+                "name": "Anal polyp",
+                "code": "K620"
+            },
+            {
+                "name": "Internal hemorrhoids without complication",
+                "code": "I842"
+            },
+            {
+                "name": "External hemorrhoids without complication",
+                "code": "I841"
+            },
+            {
+                "name": "External hemorrhoids with complications",
+                "code": "I845"
+            }
+        ]
+    },
+    "mainpart": [
+        "Terminal ileum",
+        "Cecum",
+        "Appendiceal Orifice",
+        "Ascending Colon",
+        "Hepatic flexure",
+        "Transverse Colon",
+        "Splenic flexure",
+        "Descending Colon",
+        "Sigmoid Colon",
+        "Rectum",
+        "Anal canal"
+    ],
+    "bowel": [
+        "Excellent",
+        "Good",
+        "Fair",
+        "Poor"
+    ],
+    "complication": [
+        "Perforation",
+        "Hypoxia",
+        "Bleeding",
+        "Cardiovascular instability",
+        "Colononic redundancy"
+    ]
+}

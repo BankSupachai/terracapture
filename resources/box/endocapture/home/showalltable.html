@@ -1,0 +1,33 @@
+@foreach($caseall as $el)
+<tr>
+    <td>&nbsp;{{$el->case_id}}</td>
+    <td>
+        <b>
+            <span class="label label-{{$el->colorstatus}} label-pill label-inline mr-2">{{$el->case_status}}</span>
+        </b>
+    </td>
+    <th><b>{{$el->case_hn}}</b></th>
+    <td><b><a href='loadpic/{{$el->case_id}}'>{{$el->case_patient}}</a></b></td>
+    <td class='thage'><b>{{$el->case_age}}</b></td>
+    <td><b>{{$el->case_doctor}}</b></td>
+    <td><b>{{$el->case_procedure}}</b></td>
+    <td><b>{{$el->case_room}}</b></td>
+    <td><b>{{$el->case_appointment}}</b></td>
+    <td>
+        <div class='btn-group'>
+            <a href='reportendocapture/{{$el->case_id}}' data-toggle='popover' data-trigger='hover' data-placement='top' data-content='Report'
+                class='btn btn-{{$el->colorreport}}'>
+                <i class='far fa-calendar-check'></i>
+            </a>
+            <a href="loadpic/{{$el->case_id}}" data-toggle='popover' data-trigger='hover' data-placement='top'' data-content=' Record'
+                class='btn btn-icon waves-effect waves-light btn-info'>
+                <i class='far fa-folder-open'></i>
+            </a>
+            <a href="camera/{{$el->case_id}}" data-toggle='popover' data-trigger='hover' data-placement='top' data-content='Capture'
+                    class='btn btn-icon waves-effect waves-light btn-success'>
+                <i class='fas fa-camera'></i>
+            </a>
+        </div>
+    </td>
+</tr>
+@endforeach

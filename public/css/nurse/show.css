@@ -1,0 +1,61 @@
+b{
+    font-size: 14px;
+}
+.modal-content .row{align-items: center;}
+.text-gray-small{color: #9599AD;}
+/* .card-shadowless .row{align-items: center;} */
+.col-1{white-space: nowrap;}
+.btn-confirm-nurse{
+    background: #0071bb;
+    color: white !important;
+    padding: 0;
+}
+.btn-confirm-nurse:hover{background: #0467a8;}
+.btn-confirm-nurse span{padding:0.4em;margin-left: 1em;margin-right: 1em;}
+.btn-confirm-nurse i{padding:0.4em;background: #0071bb;border-left: 1px solid white;}
+.bg-card-endo{
+    background: #0071bb;
+    color: white !important;
+}
+.btn.btn-light-primary {
+    color: #0071bb;
+    background-color: #E1F0FF;
+    border-color: transparent;
+}
+.btn.btn-light-primary:hover{
+    color: #E1F0FF;
+    background-color: #0467a8 !important;
+}
+.btn-nurse{
+    border: 1px solid #0071bb;
+    color: #0071bb;
+    background: white;
+}
+.btn-nurse:active,.btn-nurse:hover,.btn-nurse.active{
+    color: white;
+    background: #0467a8;
+}
+.ck-status{color: #0071bb;font-size: small;}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 1;
+}
+#table_operation td{
+    padding: 3px 3px !important;
+    text-align: center;
+}
+#table_operation td:first-child{
+    padding-left: 0 !important;
+}
+#table_operation tr td:nth-child(1),
+#table_operation tr td:nth-child(3),
+#table_operation tr td:nth-child(4),
+#table_operation tr td:nth-child(5),
+#table_operation tr td:nth-child(6),
+#table_operation tr td:nth-child(7){
+    width: 6em;
+}
+.vat{align-items: baseline !important;}
+.vab{
+    align-items: flex-end !important;
+}
+#tb_add tr td{vertical-align: middle;}

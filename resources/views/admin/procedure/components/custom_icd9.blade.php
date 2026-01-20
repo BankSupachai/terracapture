@@ -1,0 +1,1 @@
+@include('componantsetting.post-diagnosis')

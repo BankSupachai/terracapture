@@ -1,0 +1,336 @@
+.nav-terralink{
+    width: 100%;
+    position: relative;
+}
+.nav-terralink > .sub{
+    top: 10px;
+    left: 50px;
+    right: 50px;
+    min-height: 2em;
+    position: fixed;
+    background: #1b546857;
+    border-radius: 15px;
+
+}
+.nav-terralink > .main{
+    /* width: 100%; */
+    height: 75px;
+    left: 30px;
+    right: 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+    position: fixed;
+    background: #1b5368;
+    z-index: 99;
+}
+.nav-terralink > .main > .row{
+    height: 100%;
+}
+.nav-terralink > .main > .row > .col-2:first-child{
+    border-right: 2px solid #3d7386;
+    height: 55%;
+
+}
+
+.nav-terralink > .main img{ height: 30px;margin-left: 15%;}
+.cn{align-items: center;}
+.dropdown-menu.show.bg-terralink{
+    padding-left: 15px;
+    padding-right: 15px;
+    background: #103c4d;
+    z-index: 9999;
+}
+.bg-terralink{
+    background: #1f586d;
+}
+.dropdown-menu.show.bg-terralink > a{color: #fff;transition: 0.5s;}
+.dropdown-menu.show.bg-terralink a:hover{
+    background: #1f586d;
+}
+.content{
+    padding-top: 110px;
+    padding-bottom: 0px;
+}
+.bg-white{
+    background: white;
+}
+.btn-terralink{background: #1b5368;color: white;}
+.btn-terralink:hover{background: #246780;color: white;}
+.btn-terralinkCF{background-color: #f8f9fa;}
+.text-terralink{color: #1b5368;}
+.text-terralinkModal{color: #1b5368;}
+.tera-icon{color: #1b5368;}
+
+.input-group-prepend .input-group-text{
+    border-radius: 0px 5px 5px 0px !important;
+}
+.input-group-terralink{
+    border-radius: 5px;
+    border: 1px solid #103c4d;
+}
+.a-terralink{
+    cursor: pointer;
+    color: #1b5368;
+    text-align: center;
+    font-size: larger;
+    font-weight: 500;
+}
+.a-terralink:hover .text-terralink,.a-terralink:hover i{
+    color: black;
+
+}
+.mh-70{
+    min-height: 70vh;
+}
+::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  .modal.left .modal-dialog,
+  .modal.right .modal-dialog {
+      position: fixed;
+      margin: auto;
+      width: 50%;
+      height: 100%;
+      -webkit-transform: translate3d(0%, 0, 0);
+          -ms-transform: translate3d(0%, 0, 0);
+           -o-transform: translate3d(0%, 0, 0);
+              transform: translate3d(0%, 0, 0);
+  }
+
+  .modal.left .modal-content,
+  .modal.right .modal-content {
+      height: 100%;
+      overflow-y: auto;
+  }
+
+  .modal.left .modal-body,
+  .modal.right .modal-body {
+      padding: 15px 15px 80px;
+  }
+
+
+  .modal.right.fade .modal-dialog {
+      right: -320px;
+      -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+         -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+           -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+              transition: opacity 0.3s linear, right 0.3s ease-out;
+  }
+.modal.show .modal-dialog{
+    /* transform: 0.5s; */
+    right: 0 !important;
+}
+.modal.right > .modal-dialog{
+    max-width: 80%;
+}
+/* ----- MODAL STYLE ----- */
+  .modal-content {
+      border-radius: 0;
+      border: none;
+  }
+
+  .modal-header {
+      border-bottom-color: #EEEEEE;
+      background-color: #FAFAFA;
+  }
+
+/* ----- v CAN BE DELETED v ----- */
+
+/* .nav.nav-pills.nav-terralink .nav-link.active{
+    background: #103c4d;
+    color: white;
+    padding: 5px;
+} */
+.a-terralink .mdi{
+    color: #103c4d;
+}
+.nav-item.shared{
+    width: 10em;
+}
+.nav-item.shared .nav-link{
+    width: 100% !important;
+    padding: 0.5em !important;
+    background: rgb(180, 179, 179) !important;
+    text-align: center;
+}
+.nav-item.shared .nav-link span{
+    color: white !important;
+
+}
+.nav-pills.series .nav-item:hover .nav-link .nav-text{
+    color: #103c4d;
+}
+.nav-pills.series .nav-item:hover .nav-link.active .nav-text,.nav-pills.set-photo .nav-item:hover .nav-link .nav-text,.nav-pills.set-photo .nav-item .nav-link .nav-text{
+    color: white;
+}
+.set-photo .nav-item .nav-link{
+    background: #979899;
+    border-radius: 0 10px 0 0;
+}
+.text-right{text-align: right;}
+.set-photo{align-items: end;}
+
+.set-photo .nav-item{
+    margin-right: 0 !important;
+}
+.set-photo .nav-item .nav-link.active{
+    background: #4a4d4e;
+}
+.set-photo .nav-item .nav-link.active .nav-text{
+    font-size: large;
+}
+.nav-item.shared .nav-link.active,.nav-pills.series .nav-item .nav-link.active{
+    background: #103c4d !important;
+    color: white;
+}
+#profile-2 table td{
+    white-space: nowrap;
+}
+.tab-left{
+    border-radius: 5px;
+    padding: 0.5em 1em !important;
+}
+.tab-left > i,.tab-left > b{
+    color: #103c4d;
+}
+.tab-left:hover{
+    background: #1c5268;
+}
+.tab-left:hover > i,.tab-left:hover > b{
+    color: white;
+}
+.tab-left.active{
+    background: #103c4d;
+}
+.tab-left.active > i,.tab-left.active > b{
+    color: white;
+}
+.img-profile-set{
+    width: 70%;
+}
+.box{
+    padding: 2em;
+    text-align: center;
+    border: 1px solid rgb(236, 235, 235);
+    border-radius: 5px;
+    margin: 1em 0;
+}
+.cb{
+    align-items: flex-end;
+
+}
+.checkbox > input:checked ~ span {
+    background-color: #103c4d !important;
+}
+.w-65{
+    width: 65%;
+}
+.bg-body{background: #eef0f8;transition: 0.4s;cursor: pointer;}
+.bg-body.active{background: #103c4d;}
+.bg-body.active td{color: #fff;}
+.data-select-import{display: none;}
+.data-select-import.active{display: block;}
+.head-create{
+    width: 100%;
+    height: 10em;
+    padding: 2em;
+    border-bottom: 1px solid #eef0f8;
+}
+.body-create{
+    padding: 2em;
+    display: none;
+}
+.body-create.active{
+    display: block;
+}
+.box-num{
+    width: 2em;
+    height: 2em;
+    padding-top: 0.2em;
+    border-radius: 50%;
+    background: #EDF2F6;
+    margin: auto;
+}
+.box-num.active{
+    color: white;
+    background: #274D61;
+}
+.psr{position: relative;}
+.set-line-create{
+    position: absolute;
+    margin-top: 0;
+    margin-left: 5%;
+    width: 90%;
+}
+.radio-inline .radio > input:checked ~ span{
+    background: #103c4d;
+}
+.series-table{
+    border: 1px solid #eef0f8 !important;
+}
+.series-table tr td:nth-child(1){width: 5%;}
+.series-table tr td:nth-child(2),.series-table tr td:nth-child(3),.series-table tr td:nth-child(4){width: 10%;}
+.series-table tr td:nth-child(5),.series-table tr td:nth-child(6),.series-table tr td:nth-child(7),.series-table tr td:nth-child(8){width: 16.25%;}
+.set-series-table{height: 57vh;overflow-y: auto;}
+.box-shadow-none{box-shadow: none !important;}
+.h17-5{height: 17.5vh;}
+.left-profile{
+    width: 8em;
+    height: 8em;
+    border-radius: 50%;
+}
+.like-table{
+    border-top: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+}
+.card-stretch-half .col-12 b,.card-stretch-half .col-12 i,.h17-5 .mt-2 b,.card-stretch3box-shadow-none .card-body b{
+    color: #103c4d;
+}
+.dropdown-menu.show{background: #103c4d;}
+.dropdown-menu.show li:hover a{background: #1e4f63;}
+.dropdown-menu.show li a{color: #fff !important;}
+.logout{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 1px solid #fff;
+}
+.home-table{
+    overflow: auto;
+    height: 66.6vh;
+}
+
+#myTab1.nav-pills .nav-link.active, #myTab1.nav-pills .show>.nav-link{background-color: #1b5368;}
+.list-nav .nav-pills .nav-link.active,.list-nav .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #1b5368;
+}
+.reportob_table tr td,.reportob_table tr th{padding: 5px;}
+.mw-100px{
+    min-width: 100px;
+}
+.list-nav .nav-fill .nav-item .nav-link,.list-nav .nav-justified .nav-item .nav-link {
+    border: 1px solid #f2f2f2;
+}
+.table-p-0 tr td{padding: 0;vertical-align: middle;}
+.table-p-0 tr td.pl-2{padding-left: 10px;vertical-align: middle;}
+.table-p-0 tr td .form-control{border-radius: 0;}
+.tab-list .tab-pane b{color: black !important;}
+.check-icon:hover{background: #274D61;cursor: pointer;}
+.check-icon:hover i{color: #fff;}
+.img-list,#list_img_select{height: 60vh;overflow-y: auto;}
+.img-selected.active{border:2px solid greenyellow;}
+.img-select-right{border: 2px solid #fff;}
+.img-chart:hover{box-shadow: 0 0 5px gray;}
+.img-chart.active{box-shadow: 0 0 5px rgb(53, 243, 154);background: rgb(229, 245, 206);}

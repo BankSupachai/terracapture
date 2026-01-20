@@ -1,0 +1,20 @@
+*{
+    font-family: 'Kanit', sans-serif;
+}
+.pdfobject-container {
+	width: 100%;
+	/* max-width: 600px; */
+	height: 600px;
+	/* margin: 2em 0; */
+}
+
+    .pdfobject { border: solid 1px #666; }
+    .w100{
+        width: 100%;
+    }
+    .pd5{
+        padding: 4px;
+    }
+    .card,.card-body{
+        border-radius: 0;
+    }

@@ -1,0 +1,46 @@
+#modal_esign {
+    padding: 0px !important;
+    margin: auto;
+    height: 100%;
+}
+
+#modal_esign .modal-dialog {
+    max-width: 100% !important;
+    height: 100%;
+    margin: 0;
+}
+
+#modal_esign .modal-dialog .modal-content,
+#modal_esign .modal-dialog .modal-content .row {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+#btn_checksign {
+    width: 18em;
+    position: absolute;
+    right: 0;
+    font-size: 2em;
+    border-radius: 0;
+    line-height: 2.2em;
+    z-index: 9999;
+}
+
+#btn_close_draw {
+    width: 18em;
+    position: absolute;
+    font-size: 2em;
+    border-radius: 0;
+    line-height: 2.2em;
+    z-index: 9999;
+    right: 35%;
+}
+
+.sign_modal,
+.sign_modal iframe,
+.sign_modal iframe html,
+.sign_modal iframe html body {
+    width: 100% !important;
+    height: 100% !important;
+    padding: 0 !important;
+}

@@ -1,0 +1,37 @@
+*{
+    color: white;
+}
+.operation
+{
+    height: 50px;
+    overflow: scroll;
+}
+.registered
+{
+    height: 390px;
+    overflow: scroll;
+    //border: 1px solid red;
+}
+.vip
+{
+    overflow: scroll;
+}
+.finished
+{
+    height: 100px;
+    overflow: scroll;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+body, html {
+    height: 100%;
+}
+
+.bg{
+    background-image: url("image/blue.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
