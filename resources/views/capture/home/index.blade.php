@@ -81,22 +81,37 @@
 
                             <!-- Physician Dropdown -->
                             <div class="col-lg-2 col-md-3">
-                                <select class="form-select" id="filter_physician">
+                                <select class="form-select select2" id="filter_physician">
                                     <option value="">Physician</option>
                                     @php
                                         $list_doctor = App\Models\Mongo::table('users')->where('user_type', 'doctor')->get();
                                     @endphp
                                     @foreach ($list_doctor as $data)
-                                        <option value="{{ @$data->uid }}">{{ @$data->user_prefix }} {{ @$data->user_firstname }} {{ @$data->user_lastname }}</option>
+                                        @php
+                                            $doctor_fullname = trim((@$data->user_prefix ? @$data->user_prefix . ' ' : '') . (@$data->user_firstname ?? '') . ' ' . (@$data->user_lastname ?? ''));
+                                        @endphp
+                                        <option value="{{ $doctor_fullname }}" data-uid="{{ @$data->uid }}">{{ $doctor_fullname }}</option>
                                     @endforeach
                                 </select>
                             </div>
 
                             <!-- Modality Dropdown -->
                             <div class="col-lg-2 col-md-3">
-                                <select class="form-select" id="filter_modality">
+                                <select class="form-select select2" id="filter_modality">
                                     <option value="">Modality</option>
-                                    <!-- Add modality options here -->
+                                    @php
+                                        $modalities = collect($tb_case ?? [])
+                                            ->pluck('modality')
+                                            ->filter(function ($v) {
+                                                return !empty($v) && $v !== '-';
+                                            })
+                                            ->unique()
+                                            ->sort()
+                                            ->values();
+                                    @endphp
+                                    @foreach ($modalities as $m)
+                                        <option value="{{ $m }}">{{ $m }}</option>
+                                    @endforeach
                                 </select>
                             </div>
 
@@ -148,7 +163,7 @@
                                     <tbody style="background: #fff;">
 
                                         @foreach ($tb_case ?? [] as $data)
-                                        <tr>
+                                        <tr class="js-case-row">
                                             <td>{{ @$data->case_hn ?: '-' }}</td>
                                             <td>{{ @$data->patientname ?: '-' }}</td>
                                             <td>{{ @$data->doctorname ?: '-' }}</td>
@@ -156,9 +171,16 @@
                                             <td>{{ @$data->modality ?: '-' }}</td>
                                             <td>{{ @$data->appointment_date ?: '-' }}</td>
                                             <td>{{ @$data->description ?: '-' }}</td>
+                                            <td class="text-end">Final</td>
+
                                             <td class="text-end">
-                                                <button class="btn btn-success btn-sm"><i class="ri-eye-line"></i></button>
-                                                <button class="btn btn-info btn-sm"><i class="ri-file-list-3-line"></i></button>
+                                                <a href="{{url("procedure/$data->id")}}" class="btn btn-info">
+                                                    <i class="ri-file-list-3-line"></i>
+
+                                                </a>
+                                                <a  href="{{@$admin->url_and_port}}/viewer?StudyInstanceUIDs={{ @$data->studyInstanceUID }}&id={{ @$data->id }}" class="btn btn-success ">
+                                                    <i class="ri-eye-line"></i>
+                                                </a>
                                             </td>
                                         </tr>
                                         @endforeach
@@ -178,8 +200,123 @@
 @include('capture.alltest.esc_home')
 
 @section('script')
+    <script>
+        (function() {
+            function normalizeText(v) {
+                return (v || '').toString().trim().toLowerCase();
+            }
 
+            function parseDate(dateStr) {
+                if (!dateStr || dateStr === '-') return null;
+                // ลอง parse รูปแบบต่างๆ เช่น "2024-01-15", "2024-01-15 10:30:00"
+                const cleaned = dateStr.trim().split(' ')[0]; // เอาเฉพาะส่วนวันที่
+                const parts = cleaned.split('-');
+                if (parts.length === 3) {
+                    const year = parseInt(parts[0], 10);
+                    const month = parseInt(parts[1], 10) - 1; // JS month is 0-indexed
+                    const day = parseInt(parts[2], 10);
+                    if (!isNaN(year) && !isNaN(month) && !isNaN(day)) {
+                        return new Date(year, month, day);
+                    }
+                }
+                return null;
+            }
 
+            function isToday(date) {
+                if (!date) return false;
+                const today = new Date();
+                return date.getDate() === today.getDate() &&
+                       date.getMonth() === today.getMonth() &&
+                       date.getFullYear() === today.getFullYear();
+            }
 
+            function isYesterday(date) {
+                if (!date) return false;
+                const today = new Date();
+                const yesterday = new Date(today);
+                yesterday.setDate(today.getDate() - 1);
+                const dateOnly = new Date(date.getFullYear(), date.getMonth(), date.getDate());
+                const yesterdayOnly = new Date(yesterday.getFullYear(), yesterday.getMonth(), yesterday.getDate());
+                // วันที่เป็นเมื่อวาน (ย้อนไป 1 วัน)
+                return dateOnly.getTime() === yesterdayOnly.getTime();
+            }
 
+            function applyFilters() {
+                const q = normalizeText($('#search_patient').val());
+                const physician = normalizeText($('#filter_physician').val());
+                const modality = normalizeText($('#filter_modality').val());
+                const dateRange = $('.date-option.active').data('range') || '0D';
+
+                $('.js-case-row').each(function() {
+                    const $tr = $(this);
+                    const $tds = $tr.find('td');
+
+                    const hn = normalizeText($tds.eq(0).text());
+                    const patient = normalizeText($tds.eq(1).text());
+                    const doctor = normalizeText($tds.eq(2).text());
+                    const rowModality = normalizeText($tds.eq(4).text());
+                    const appointmentDateStr = $tds.eq(5).text().trim();
+                    const appointmentDate = parseDate(appointmentDateStr);
+
+                    const matchQuery = !q || hn.includes(q) || patient.includes(q);
+                    const matchPhysician = !physician || doctor.includes(physician);
+                    const matchModality = !modality || rowModality.includes(modality);
+
+                    let matchDate = true;
+                    if (dateRange === '0D') {
+                        // 0D = appointment_date ตรงกับวันปัจจุบัน
+                        matchDate = isToday(appointmentDate);
+                    } else if (dateRange === '1W') {
+                        // 1W = ย้อนไป 1 วัน (เมื่อวาน)
+                        matchDate = isYesterday(appointmentDate);
+                    } else if (dateRange === 'ALL') {
+                        // ALL = รวมทุกเคส
+                        matchDate = true;
+                    }
+
+                    $tr.toggle(matchQuery && matchPhysician && matchModality && matchDate);
+                });
+            }
+
+            function debounce(fn, wait) {
+                let t;
+                return function() {
+                    clearTimeout(t);
+                    t = setTimeout(fn, wait);
+                };
+            }
+
+            $(document).ready(function() {
+                // เปิดใช้ Select2 (layoutv6 include ไว้แล้ว)
+                if ($.fn.select2) {
+                    $('#filter_physician').select2({
+                        width: '100%',
+                        placeholder: 'Physician',
+                        allowClear: true
+                    });
+                    $('#filter_modality').select2({
+                        width: '100%',
+                        placeholder: 'Modality',
+                        allowClear: true
+                    });
+                }
+
+                const applyFiltersDebounced = debounce(applyFilters, 150);
+
+                // Event handlers
+                $('#search_patient').on('input', applyFiltersDebounced);
+                $('#filter_physician, #filter_modality').on('change', applyFilters);
+
+                // Date range buttons
+                $('.date-option').on('click', function() {
+                    $('.date-option').removeClass('active');
+                    $(this).addClass('active');
+                    applyFilters();
+                });
+
+                // run ครั้งแรก
+                applyFilters();
+            });
+        })();
+    </script>
 @endsection

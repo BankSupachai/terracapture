@@ -29,6 +29,8 @@ Route::resource("emr"                   ,App\Http\Controllers\Capture\EMRControl
 Route::resource("storemanage"           ,App\Http\Controllers\Capture\StoremanageController::class);
 Route::resource("store"                 ,App\Http\Controllers\Capture\StoreController::class);
 Route::resource("patientent"                 ,App\Http\Controllers\Capture\PatientEntController::class);
+Route::resource("superadmin"                 ,App\Http\Controllers\Capture\SuperadminController::class);
+
 
 Route::post('/capture/getBalance', [App\Http\Controllers\Capture\StoremanageController::class, 'getBalance'])->name('capture.getBalance');
 Route::get("bookexport",                      function () {return view('capture.historytaking');});

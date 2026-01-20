@@ -27,6 +27,8 @@ class HomeController extends Controller
         $view['procedure']          = Department::procedure(uid());
         $view['room']               = Department::room(uid());
         $view['tb_case'] = Mongo::table('tb_case')->get();
+        $view['admin'] = getConfig("admin");
+        // $view['url_terra'] = getConfig("terra")->url;
         // $val['moss'] = "test";
         // Config::name("moss")->update($val);
         // $pacs = Config::get("pacs");
