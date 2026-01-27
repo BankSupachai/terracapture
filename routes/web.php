@@ -40,3 +40,23 @@ Route::post('logout',                   [CustomAuthController::class, 'logoutcap
 //EndoINDEX
 
 
+use Livewire\Livewire;
+
+Livewire::setUpdateRoute(function ($handle) {
+
+    // if (file_exists('D:/laragon/htdocs/livewire.txt')) {
+    //     $text   = file_get_contents('D:/laragon/htdocs/livewire.txt');
+    //     $json   = json_decode($text);
+    //     $location = $json->location;
+    //     if($location == "local"){
+    //         $project = "/".basename(base_path());
+    //     }else{
+    //         $project = "";
+    //     }
+    // }else{
+    //     $project = "/".basename(base_path());
+    // }
+    $project = "/".basename(base_path());
+
+    return Route::post("{$project}/livewire/update", $handle);
+});

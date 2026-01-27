@@ -85,7 +85,6 @@
             </div>
         @endif
     @endforeach
-
     @if (count($photoall) > 0)
         <div class="row">
             <div class="col"></div>
@@ -94,7 +93,7 @@
                 <script>
                     function refreshdelay() {
                         setTimeout(function() {
-                            window.location.href = "{{url("capture/procedure/$cid?select=1") }}";
+                            window.location.href = "{{url("procedure/$cid?select=1") }}";
                         }, 2000);
                     }
                 </script>

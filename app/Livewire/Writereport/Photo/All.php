@@ -64,6 +64,7 @@ class All extends Component
 
     public function selectedPhoto($picID)
     {
+        
         // $photoall = $this->photoall;
         if ($this->photoall[$picID]['ns'] == 0) {
             $max_ns = 0;

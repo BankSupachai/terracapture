@@ -453,7 +453,7 @@ $color = configTYPE('admin','color')=='dark' @endphp
                 <div class="navbar-header">
                     <div class="d-flex">
                         <div class="navbar-brand-box horizontal-logo " style="margin-left:-90px;">
-                            <a href="{{ url('home') }}" class="logo logo-dark">
+                            <a href="{{@$admin->url_and_port}}" class="logo logo-dark">
                                 <span class="logo-sm">
                                     <img src="{{ url('public/image/TERRA.png') }}" alt="" height="22">
                                 </span>
@@ -462,7 +462,7 @@ $color = configTYPE('admin','color')=='dark' @endphp
                                 </span>
                             </a>
 
-                            <a href="{{ url('home') }}" class="logo logo-light">
+                            <a href="{{@$admin->url_and_port}}" class="logo logo-light">
                                 <span class="logo-sm">
                                     <img src="{{ url('public/image/TERRA.png') }}" alt="" height="22">
                                 </span>

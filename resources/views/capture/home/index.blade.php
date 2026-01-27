@@ -119,9 +119,9 @@
                             <div class="col-lg-3 col-md-6">
                                 <div class="d-flex align-items-center gap-2">
                                     <div class="date-range-segmented">
-                                        <button type="button" class="date-option active" data-range="0D">0D</button>
+                                        <button type="button" class="date-option" data-range="0D">0D</button>
                                         <button type="button" class="date-option" data-range="1W">1W</button>
-                                        <button type="button" class="date-option" data-range="ALL">ALL</button>
+                                        <button type="button" class="date-option active" data-range="ALL">ALL</button>
                                     </div>
                                     <input type="text" class="form-control date-range-input" id="date_range_picker" placeholder="Select date range" style="flex: 1;">
                                 </div>
@@ -245,7 +245,7 @@
                 const q = normalizeText($('#search_patient').val());
                 const physician = normalizeText($('#filter_physician').val());
                 const modality = normalizeText($('#filter_modality').val());
-                const dateRange = $('.date-option.active').data('range') || '0D';
+                const dateRange = $('.date-option.active').data('range') || 'ALL';
 
                 $('.js-case-row').each(function() {
                     const $tr = $(this);

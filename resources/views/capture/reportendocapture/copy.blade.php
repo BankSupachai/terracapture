@@ -559,7 +559,7 @@
                 <br>
             </div>
             <div class="col-12  ">
-                <a href="{{ url('') }}" class="btn btn-success w-100">
+                <a href="{{@$config->url_and_port}}" class="btn btn-success w-100">
                     {{-- <i class="ri-list-check me-2"></i> --}}
                     Back to home
                 </a>

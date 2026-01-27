@@ -35,7 +35,7 @@ class ReportEndocaptureController extends Controller
         $tb_casenote = Mongo::table('tb_casenote')
             ->where('id',$r->nid)
         ->first();
-        
+
         $val['status'] = "print";
         Mongo::table('tb_casenote')->where('id',$tb_casenote->id)->update($val);
     }
@@ -83,6 +83,7 @@ class ReportEndocaptureController extends Controller
     public function show($id, Request $r){
         $view['feature']    = getCONFIG("feature");
         $view['config']     = getCONFIG("admin");
+
         $view['id']         = $id;
         $view['cid']        = $id;
         $tb_case            = (object) Mongo::table('tb_case')->where('id',$id)->first();

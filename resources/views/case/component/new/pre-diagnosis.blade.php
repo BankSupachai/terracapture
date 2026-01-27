@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-auto">
                     <h4>Pre-Diagnosis &ensp; &ensp; &ensp;&ensp; &ensp;<i class="ri-equalizer-line"></i></h4>
-                    <span class="text-gray">Please fill in the field then click “Create Report”</span>
+                    <span class="text-gray">Please fill in the field then click “Create Report” fsafasfasfas</span>
                 </div>
             </div>
             <div class="col-auto mt-4">

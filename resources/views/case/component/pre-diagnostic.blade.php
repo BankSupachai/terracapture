@@ -33,15 +33,15 @@
             </div>
             <div class="row mt-3">
                 {!! editcard('pre-diagnostic', 'pre-diagnostic.blade.php') !!}
-                <div class="col-xxl-6">
+                <div class="col-xxl-12">
                     <div class="row">
-                        @if (@$project_name == 'capture')
-                            @include('capture.case.component.sub.brief_history')
-                        @else
-                            @include('case.component.sub.brief_history')
-                        @endif
 
-                        @if (in_array($procedure->name, ['ERCP', 'EUS', 'Bronchoscope']))
+
+
+                            @include('case.component.sub.brief_history')
+
+
+                        {{-- @if (in_array($procedure->name, ['ERCP', 'EUS', 'Bronchoscope']))
                             @include('case.component.sub.pre_diagntic')
                         @endif
 
@@ -55,12 +55,12 @@
                             @include('case.component.sub.anesthesia')
                         </div>
 
-                    </div>
+                    </div> --}}
                 </div>
-                <div class="col-xxl-6 mt-2">
+                {{-- <div class="col-xxl-6 mt-2">
                     @include('case.component.sub.medication')
 
-                </div>
+                </div> --}}
 
             </div>
         </div>
